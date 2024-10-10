@@ -1,0 +1,93 @@
+baseURL: https://xicu.info
+title: Xicu Marí
+theme: papermod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  keywords: [Blog, Portfolio, Electronic Engineer, Robotics, Embedded Systems, Software Development, FPGA]
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    favicon: favicon/favicon128x128.png
+    favicon16x16: favicon/favicon16x16.png
+    favicon32x32: favicon/favicon32x32.png
+    apple_touch_icon: favicon/favicon128x128.png
+    safari_pinned_tab: favicon/favicon128x128.png
+
+  profileMode:
+    enabled: true
+    subtitle: Electronic Engineer
+    imageUrl: home/profile.jpeg
+    imageTitle: Xicu Marí
+    imageWidth: 192
+    imageHeight: 192
+    buttons:
+      - name: About me
+        url: '/bio/'
+      - name: Blog
+        url: '/blog/'
+      - name: Projects
+        url: '/projects/'
+  # contact:
+  #   email: hello@xicu.info
+  #   phone: +34 609 21 44 44 
+
+  homeInfoParams:
+    Title: Hi there 👋
+    Content: Welcome to my blog
+
+    socialIcons:
+    - name: Github
+      url: https://github.com/XicuM
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/xicu
+    - name: Instagram
+      url: https://www.instagram.com/xicu.m
+
+menu:
+  main:
+    - identifier: bio
+      name: About me
+      url: /bio/
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 30
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 40
+
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
