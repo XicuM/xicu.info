@@ -51,7 +51,7 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Install Hugo theme
-        run: git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod 
+        run: git submodule update --init --recursive
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
