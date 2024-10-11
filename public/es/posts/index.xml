@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Xicu Marí</title>
+    <link>https://xicu.info/es/posts/</link>
+    <description>Recent content in Posts on Xicu Marí</description>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Fri, 11 Oct 2024 11:29:05 +0200</lastBuildDate>
+    <atom:link href="https://xicu.info/es/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adiós, BCN eMotorsport</title>
+      <link>https://xicu.info/es/posts/fs/</link>
+      <pubDate>Fri, 11 Oct 2024 11:29:05 +0200</pubDate>
+      <guid>https://xicu.info/es/posts/fs/</guid>
+      <description>&lt;p&gt;Después de dos años increíbles con &lt;a href=&#34;bcnemotorsport.upc.edu&#34;&gt;BCN eMotorsport&lt;/a&gt;, es hora de decir adiós. Desde mi primer año y medio trabajando en el desarrollo de nuestro inversor hasta este último año como Team Leader, ha sido un viaje inolvidable.&lt;/p&gt;
+&lt;p&gt;Liderar el equipo y gestionar la organización fue tanto un desafío como un privilegio. Me enseñó valiosas lecciones  sobre la responsabilidad: lo que realmente significa ser responsable de las acciones del equipo, asumiendo tanto los éxitos como los (muchos) fracasos.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

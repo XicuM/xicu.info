@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Xicu Marí</title>
+    <link>https://xicu.info/es/</link>
+    <description>Recent content on Xicu Marí</description>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Fri, 11 Oct 2024 11:29:05 +0200</lastBuildDate>
+    <atom:link href="https://xicu.info/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adiós, BCN eMotorsport</title>
+      <link>https://xicu.info/es/posts/fs/</link>
+      <pubDate>Fri, 11 Oct 2024 11:29:05 +0200</pubDate>
+      <guid>https://xicu.info/es/posts/fs/</guid>
+      <description>&lt;p&gt;Después de dos años increíbles con &lt;a href=&#34;bcnemotorsport.upc.edu&#34;&gt;BCN eMotorsport&lt;/a&gt;, es hora de decir adiós. Desde mi primer año y medio trabajando en el desarrollo de nuestro inversor hasta este último año como Team Leader, ha sido un viaje inolvidable.&lt;/p&gt;
+&lt;p&gt;Liderar el equipo y gestionar la organización fue tanto un desafío como un privilegio. Me enseñó valiosas lecciones  sobre la responsabilidad: lo que realmente significa ser responsable de las acciones del equipo, asumiendo tanto los éxitos como los (muchos) fracasos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🏗️ En construcción...</title>
+      <link>https://xicu.info/es/projects/first_project/</link>
+      <pubDate>Fri, 11 Oct 2024 11:17:03 +0200</pubDate>
+      <guid>https://xicu.info/es/projects/first_project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sobre mí</title>
+      <link>https://xicu.info/es/bio/</link>
+      <pubDate>Fri, 11 Oct 2024 08:42:50 +0200</pubDate>
+      <guid>https://xicu.info/es/bio/</guid>
+      <description>&lt;p&gt;Soy un &lt;strong&gt;Ingeniero Electrónico&lt;/strong&gt; con más de 2 años de experiencia en BCN eMotorsport, el equipo de Formula Student de Barcelona. Me especialicé en Electrónica de Potencia y más tarde asumí el rol de Líder de Equipo.&lt;/p&gt;
+&lt;h2 id=&#34;experiencia-profesional&#34;&gt;Experiencia Profesional&lt;/h2&gt;
+&lt;h4 id=&#34;sep-2023---sep-2024&#34;&gt;Sep 2023 - Sep 2024&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&#34;-team-leader&#34;&gt;🏎️ Team Leader&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;BCN eMotorsport&lt;/strong&gt; · Universitat Politècnica de Catalunya&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lideré y coordiné departamentos en un equipo de Formula Student enfocado en diseñar, fabricar y probar un coche eléctrico y autónomo.&lt;/li&gt;
+&lt;li&gt;Gestioné la organización del equipo, el software de documentación, la planificación de eventos, el presupuesto y los acuerdos de patrocinio.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;feb-2022---sep-2024&#34;&gt;Feb 2022 - Sep 2024&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&#34;-ingeniero-de-electrónica-de-potencia&#34;&gt;⚡ Ingeniero de Electrónica de Potencia&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;BCN eMotorsport&lt;/strong&gt; · Universitat Politècnica de Catalunya&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contacto</title>
+      <link>https://xicu.info/es/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xicu.info/es/contact/</guid>
+      <description>&lt;p&gt;En construcción! 🚧&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

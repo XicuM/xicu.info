@@ -1,0 +1,64 @@
+baseURL: https://xicu.info
+title: Xicu Marí
+theme: PaperMod
+
+enableEmoji: true
+enableRobotsTXT: true
+buildDrafts: true
+
+params:
+  env: production
+  keywords: [Blog, Portfolio, Electronic Engineer, Robotics, Embedded Systems, Software Development, FPGA]
+  
+  label:
+    icon: icons/logo-light.png
+    iconHeight: 44
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  # Favicons
+  assets:
+    favicon: icons/favicon.ico
+    favicon16x16: icons/favicon-16x16.png
+    favicon32x32: icons/favicon-32x32.png
+    apple_touch_icon: icons/apple-touch-icon.png
+    
+  # Social Icons
+  socialIcons:
+  - name: Email
+    url: mailto:hello@xicu.info
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/xicu
+  - name: Github
+    url: https://github.com/XicuM
+  - name: Instagram
+    url: https://www.instagram.com/xicu.m
+
+# Language configuration
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+
+# Goldmark configuration
+# markup:
+#   goldmark:
+#     renderer:
+#       unsafe: true
+#   related:
+#     threshold: 80
+#   renderHooks:
+#       image:
+#         enableDefault: false
