@@ -2,10 +2,6 @@ baseURL: https://xicu.info
 title: Xicu Marí
 theme: PaperMod
 
-module:
-  imports:
-    - path: github.com/adityatelange/hugo-PaperMod
-
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
