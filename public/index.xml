@@ -6,7 +6,35 @@
     <description>Recent content on Xicu Marí</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Fri, 11 Oct 2024 08:48:40 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Fri, 11 Oct 2024 08:48:40 +0200</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Fri, 11 Oct 2024 08:48:31 +0200</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/bio/</link>
+      <pubDate>Fri, 11 Oct 2024 08:42:50 +0200</pubDate>
+      <guid>http://localhost:1313/bio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hello world</title>
+      <link>http://localhost:1313/blog/hello-world/</link>
+      <pubDate>Thu, 10 Oct 2024 16:00:48 +0000</pubDate>
+      <guid>http://localhost:1313/blog/hello-world/</guid>
+      <description>My first post</description>
+    </item>
   </channel>
 </rss>

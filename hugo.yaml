@@ -14,6 +14,10 @@ minify:
 params:
   env: production
   keywords: [Blog, Portfolio, Electronic Engineer, Robotics, Embedded Systems, Software Development, FPGA]
+  
+  label:
+    icon: assets/logo-light.png
+    iconHeight: 35
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -32,11 +36,10 @@ params:
   tocopen: false
 
   assets:
-    favicon: favicon/favicon128x128.png
-    favicon16x16: favicon/favicon16x16.png
-    favicon32x32: favicon/favicon32x32.png
-    apple_touch_icon: favicon/favicon128x128.png
-    safari_pinned_tab: favicon/favicon128x128.png
+    favicon: assets/favicon.ico
+    favicon16x16: assets/favicon-16x16.png
+    favicon32x32: assets/favicon-32x32.png
+    apple_touch_icon: assets/apple-touch-icon.png
 
   profileMode:
     enabled: true
@@ -52,9 +55,6 @@ params:
         url: '/blog/'
       - name: Projects
         url: '/projects/'
-  # contact:
-  #   email: hello@xicu.info
-  #   phone: +34 609 21 44 44 
 
   homeInfoParams:
     Title: Hi there 👋
