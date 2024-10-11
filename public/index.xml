@@ -2,38 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Xicu Marí</title>
-    <link>http://localhost:1313/</link>
+    <link>https://xicu.info/</link>
     <description>Recent content on Xicu Marí</description>
     <generator>Hugo -- 0.135.0</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 11 Oct 2024 08:48:40 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <lastBuildDate>Fri, 11 Oct 2024 11:29:05 +0200</lastBuildDate>
+    <atom:link href="https://xicu.info/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Fri, 11 Oct 2024 08:48:40 +0200</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <title>Goodbye, BCN eMotorsport</title>
+      <link>https://xicu.info/posts/fs/</link>
+      <pubDate>Fri, 11 Oct 2024 11:29:05 +0200</pubDate>
+      <guid>https://xicu.info/posts/fs/</guid>
+      <description>&lt;p&gt;After two incredible years with &lt;a href=&#34;bcnemotorsport.upc.edu&#34;&gt;BCN eMotorsport&lt;/a&gt;, it’s time to say goodbye. From my first year and a half working on developing our inverter to this past year as a Team Leader, it has been an unforgettable journey.&lt;/p&gt;
+&lt;p&gt;Leading the team and managing the organizational side was both a challenge and a privilege. It taught me invaluable lessons about responsibility—what it truly means to be accountable for the team&amp;rsquo;s actions, owning both the successes and the (many) failures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🏗️ Work in progress!</title>
+      <link>https://xicu.info/projects/first_project/</link>
+      <pubDate>Fri, 11 Oct 2024 11:17:03 +0200</pubDate>
+      <guid>https://xicu.info/projects/first_project/</guid>
       <description></description>
     </item>
     <item>
-      <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
-      <pubDate>Fri, 11 Oct 2024 08:48:31 +0200</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
-      <description></description>
+      <title>Contact</title>
+      <link>https://xicu.info/contact/</link>
+      <pubDate>Fri, 11 Oct 2024 08:48:40 +0200</pubDate>
+      <guid>https://xicu.info/contact/</guid>
+      <description>&lt;p&gt;Work in progress!&lt;/p&gt;</description>
     </item>
     <item>
       <title>About me</title>
-      <link>http://localhost:1313/bio/</link>
+      <link>https://xicu.info/bio/</link>
       <pubDate>Fri, 11 Oct 2024 08:42:50 +0200</pubDate>
-      <guid>http://localhost:1313/bio/</guid>
-      <description></description>
+      <guid>https://xicu.info/bio/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m an &lt;strong&gt;Electronics Engineer&lt;/strong&gt; with over 2 years of experience in BCN eMotorsport, the Formula Student team from Barcelona. I specialized in Power Electronics and later took the role of Team Leader.&lt;/p&gt;
+&lt;h2 id=&#34;professional-experience&#34;&gt;Professional Experience&lt;/h2&gt;
+&lt;h4 id=&#34;sep-2023---sep-2024&#34;&gt;Sep 2023 - Sep 2024&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&#34;-team-leader&#34;&gt;🏎️ Team Leader&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;BCN eMotorsport&lt;/strong&gt; · Universitat Politècnica de Catalunya&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Led and coordinated departments in a Formula Student team focused on designing, manufacturing and testing an electric, driverless car.&lt;/li&gt;
+&lt;li&gt;Managed team organization, documentation software, event planning, budgeting, and sponsorship agreements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;feb-2022---sep-2024&#34;&gt;Feb 2022 - Sep 2024&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&#34;-power-electronics-engineer&#34;&gt;⚡ Power Electronics Engineer&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;BCN eMotorsport&lt;/strong&gt; · Universitat Politècnica de Catalunya&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello world</title>
-      <link>http://localhost:1313/blog/hello-world/</link>
+      <link>https://xicu.info/posts/hello-world/</link>
       <pubDate>Thu, 10 Oct 2024 16:00:48 +0000</pubDate>
-      <guid>http://localhost:1313/blog/hello-world/</guid>
+      <guid>https://xicu.info/posts/hello-world/</guid>
       <description>My first post</description>
     </item>
   </channel>

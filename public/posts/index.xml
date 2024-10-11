@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Xicu Marí</title>
+    <link>https://xicu.info/posts/</link>
+    <description>Recent content in Posts on Xicu Marí</description>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 11 Oct 2024 11:29:05 +0200</lastBuildDate>
+    <atom:link href="https://xicu.info/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Goodbye, BCN eMotorsport</title>
+      <link>https://xicu.info/posts/fs/</link>
+      <pubDate>Fri, 11 Oct 2024 11:29:05 +0200</pubDate>
+      <guid>https://xicu.info/posts/fs/</guid>
+      <description>&lt;p&gt;After two incredible years with &lt;a href=&#34;bcnemotorsport.upc.edu&#34;&gt;BCN eMotorsport&lt;/a&gt;, it’s time to say goodbye. From my first year and a half working on developing our inverter to this past year as a Team Leader, it has been an unforgettable journey.&lt;/p&gt;
+&lt;p&gt;Leading the team and managing the organizational side was both a challenge and a privilege. It taught me invaluable lessons about responsibility—what it truly means to be accountable for the team&amp;rsquo;s actions, owning both the successes and the (many) failures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello world</title>
+      <link>https://xicu.info/posts/hello-world/</link>
+      <pubDate>Thu, 10 Oct 2024 16:00:48 +0000</pubDate>
+      <guid>https://xicu.info/posts/hello-world/</guid>
+      <description>My first post</description>
+    </item>
+  </channel>
+</rss>

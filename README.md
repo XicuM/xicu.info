@@ -20,8 +20,8 @@ Create the `.github/workflows` folder and add the `hugo.yml` file with the conte
 
 ### To Dos
 
-- [ ] Add a favicon
-- [ ] Add a 404 page
-- [ ] Add bio page
-- [ ] Add projects page
-- [ ] Add a contact form
+- [ ] Adaptative logo dark/light
+- [ ] Finish projects section
+- [ ] Finish contact form
+- [ ] Improve footer
+- [ ] Fix multilingual suport

@@ -1,0 +1,54 @@
+<div style="padding-top: 40px;">
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    function getGiscusTheme() {
+        return document.body.classList.contains('dark') ? 'dark' : 'light';
+    }
+
+    function setGiscusTheme() {
+        function sendMessage(message) {
+            const iframe = document.querySelector('iframe.giscus-frame');
+            if (!iframe) return;
+            iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+            setConfig: {
+                theme: getGiscusTheme(),
+            },
+        });
+    }
+
+    const giscusAttributes = {
+        "src": "https://giscus.app/client.js",
+        "data-repo": "XicuM/xicu.info",
+        "data-repo-id": "R_kgDOHpEXXw",
+        "data-category": "General",
+        "data-category-id": "DIC_kwDOHpEXX84CjQ-6",
+        "data-mapping": "pathname",
+        "data-strict": "0",
+        "data-reactions-enabled": "1",
+        "data-emit-metadata": "0",
+        "data-input-position": "top",
+        "data-theme": getGiscusTheme(),
+        "data-lang": "en",
+        "data-loading": "lazy",
+        "crossorigin": "anonymous",
+        "async": "",
+    };
+
+    // Dynamically create script tag
+    const giscusScript = document.createElement("script");
+    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+
+    // Append the script tag to the <article> element
+    document.querySelector('article').appendChild(giscusScript);
+
+    // Update giscus theme when theme switcher is clicked
+    const toggle = document.querySelector('label[for="switch_default"]');
+    if (toggle) {
+        toggle.addEventListener('click', setGiscusTheme);
+    }
+});
+
+</script>
+</div>

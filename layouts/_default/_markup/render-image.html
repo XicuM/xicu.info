@@ -1,0 +1,56 @@
+{{- $alt := .Title | default .Text -}}
+{{- $src := .Destination -}}
+<!-- 
+{{/* Default values for width, height, and border-radius */}}
+{{- $w := "" -}}
+{{- $h := "" -}}
+{{- $r := "" -}}
+
+{{/* Extract width (w), height (h), and radius (r) from alt text */}}
+{{- $matches := findRE `w:(\d+)\s?h:(\d+)?\s?r:(\d+)?` .Text -}}
+
+{{- if $matches -}}
+  {{- $wMatch := findRE `w:(\d+)` .Text -}}
+  {{- if $wMatch -}}
+    {{- $w = index $wMatch 0 | replaceRE `w:` "" | printf "%spx" -}}
+  {{- end -}}
+
+  {{- $hMatch := findRE `h:(\d+)` .Text -}}
+  {{- if $hMatch -}}
+    {{- $h = index $hMatch 0 | replaceRE `h:` "" | printf "%spx" -}}
+  {{- end -}}
+
+  {{- $rMatch := findRE `r:(\d+)` .Text -}}
+  {{- if $rMatch -}}
+    {{- $r = index $rMatch 0 | replaceRE `r:` "" | printf "%s%%" -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* Generate CSS styles if any of w, h, or r is present */}}
+{{- $style := "" -}}
+{{- if $w -}} 
+  {{- $style = printf "%swidth:%s; " $style $w -}}
+{{- end -}}
+{{- if $h -}}
+  {{- $style = printf "%sheight:%s; " $style $h -}}
+{{- end -}}
+{{- if $r -}}
+  {{- $style = printf "%sborder-radius:%s;" $style $r -}}
+{{- end -}}
+
+<img 
+  src="{{ $src }}" 
+  alt="{{ $alt }}" 
+  {{ with $style }}style="{{ . }}"{{ end }} 
+  {{ with .Title }}title="{{ . }}"{{ end }}
+  decoding="async"
+  loading="lazy" 
+> -->
+
+<img 
+  src="{{ $src }}" 
+  alt="{{ $alt }}" 
+  {{ with .Title }}title="{{ . }}"{{ end }}
+  decoding="async"
+  loading="lazy" 
+>

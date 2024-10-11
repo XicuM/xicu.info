@@ -1,0 +1,59 @@
+en:
+  contentDir: content/en
+  disabled: false
+  languageCode: "en-US"
+  languageName: English
+  weight: 1
+  params:
+    profileMode:
+      enabled: true
+      title: Welcome to my website! 👋
+      subtitle: I'm **Xicu**, an Electronic Engineer passionate about Robotics, Embedded Systems, and Software Development. Here you will find my blog, projects and more. Enjoy your stay! 🚀
+  menu:
+    main:
+      - identifier: bio
+        name: About me
+        url: /bio
+        weight: 1
+      - identifier: blog
+        name: Blog
+        url: /posts
+        weight: 2
+      - identifier: projects
+        name: Projects
+        url: /projects
+        weight: 3
+      - identifier: contact
+        name: Contact
+        url: /contact
+        weight: 4
+
+es:
+  contentDir: content/es
+  disabled: false
+  languageCode: "es-ES"
+  languageName: Español
+  weight: 2
+  params:
+    profileMode:
+      enabled: true
+      title: ¡Bienvenido a mi sitio web! 👋
+      subtitle: Soy **Xicu**, un Ingeniero Electrónico apasionado por la Robótica, Sistemas Embebidos y Desarrollo de Software. Aquí encontrarás mi blog, proyectos y más. ¡Disfruta tu visita! 🚀
+  menu:
+    main:
+      - identifier: bio
+        name: Sobre mí
+        url: /bio
+        weight: 10
+      - identifier: blog
+        name: Blog
+        url: /posts
+        weight: 20
+      - identifier: projects
+        name: Projectos
+        url: /projects
+        weight: 30
+      - identifier: contact
+        name: Contacto
+        url: /contact
+        weight: 40
