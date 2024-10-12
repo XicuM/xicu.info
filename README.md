@@ -22,6 +22,8 @@ Create the `.github/workflows` folder and add the `hugo.yml` file with the conte
 
 - [ ] Adaptative logo dark/light
 - [ ] Finish projects section
-- [ ] Finish contact form
+- [ ] Finish contact form: https://www.formbackend.com/hugo-contact-form
 - [ ] Improve footer
-- [ ] Fix multilingual suport
+- [ ] Hamburguer menu: https://discourse.gohugo.io/t/navigation-toggle-hamburger-menu-for-hugo/36256
+- [ ] Subscribe button
+- [ ] Font size a little smaller

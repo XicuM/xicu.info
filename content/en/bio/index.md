@@ -7,6 +7,8 @@ ShowBreadCrumbs: false
 
 I'm an **Electronics Engineer** with over 2 years of experience in BCN eMotorsport, the Formula Student team from Barcelona. I specialized in Power Electronics and later took the role of Team Leader.
 
+<!-- {{< figure src="elephant.jpg" title="An elephant at sunset" >}} -->
+
 ## Professional Experience
 
 #### Sep 2023 - Sep 2024

@@ -17,3 +17,5 @@ I also understood the value of each teammate's contribution and the importance o
 I’m incredibly proud of everything we accomplished together: the technical challenges we overcame, the countless hours we dedicated to perfect the car, the friendships I made and the memories we created together. 
 
 Though my time with the team has ended, I’m confident that the future holds even greater success for BCN eMotorsport. Keep pushing boundaries and evolving into the future!
+
+<!-- {{< gallery gallery_dir="static/home" >}} -->

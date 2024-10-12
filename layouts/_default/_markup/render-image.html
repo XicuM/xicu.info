@@ -47,10 +47,4 @@
   loading="lazy" 
 > -->
 
-<img 
-  src="{{ $src }}" 
-  alt="{{ $alt }}" 
-  {{ with .Title }}title="{{ . }}"{{ end }}
-  decoding="async"
-  loading="lazy" 
->
+<img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
