@@ -4,7 +4,6 @@ theme: PaperMod
 
 enableEmoji: true
 enableRobotsTXT: true
-buildDrafts: true
 
 params:
   env: production
