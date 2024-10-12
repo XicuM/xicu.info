@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://xicu.info/sitemap.xml
