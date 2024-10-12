@@ -9,7 +9,7 @@ buildDrafts: true
 params:
   env: production
   keywords: [Blog, Portfolio, Electronic Engineer, Robotics, Embedded Systems, Software Development, FPGA]
-  
+
   label:
     icon: icons/logo-light.png
     iconHeight: 44

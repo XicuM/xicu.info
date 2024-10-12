@@ -1,3 +1,6 @@
+# ----------------------------------------------------------------------
+# English
+
 en:
   contentDir: content/en
   disabled: false
@@ -28,6 +31,9 @@ en:
         url: /contact
         weight: 4
 
+# ----------------------------------------------------------------------
+# Español
+
 es:
   contentDir: content/es
   disabled: false
@@ -51,7 +57,7 @@ es:
         weight: 20
       - identifier: projects
         name: Projectos
-        url: /projects
+        url: /projectos
         weight: 30
       - identifier: contact
         name: Contacto

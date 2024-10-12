@@ -8,7 +8,6 @@ tags: []
 # TocOpen: true
 comments: true
 description: "My first post"
-canonicalURL: "https://canonical.url/to/page"
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: false
