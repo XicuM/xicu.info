@@ -20,8 +20,7 @@ Create the `.github/workflows` folder and add the `hugo.yml` file with the conte
 
 ### To Dos
 
-- [x] Adaptive logo dark/light
-- [x] Font size a little smaller
+- [x] Language redirection
 - [ ] Finish projects section
 - [ ] Finish contact form: https://www.formbackend.com/hugo-contact-form
 - [ ] Improve footer
