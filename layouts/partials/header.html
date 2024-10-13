@@ -1,3 +1,11 @@
+<style>
+    /* Logo Theme Toggle */
+    body.dark .logo-light { display: none; }
+    body:not(.dark) .logo-dark { display: none; }
+    body.dark .logo-dark { display: inline; }
+    body:not(.dark) .logo-light { display: inline; }
+</style>
+
 {{- /* theme-toggle is enabled */}}
 {{- if (not site.Params.disableThemeToggle) }}
 {{- /* theme is light */}}
@@ -45,30 +53,33 @@
             {{- $label_text := (site.Params.label.text | default site.Title) }}
             {{- if site.Title }}
             <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
-                {{- if site.Params.label.icon }}
-                {{- $img := resources.Get site.Params.label.icon }}
-                {{- if $img }}
-                    {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
-                    {{- if hugo.IsExtended -}}
-                        {{- $processableFormats = $processableFormats | append "webp" -}}
-                    {{- end -}}
-                    {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
-                    {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
-                        {{- if site.Params.label.iconHeight }}
-                            {{- $img = $img.Resize (printf "x%d" site.Params.label.iconHeight) }}
-                        {{ else }}
-                            {{- $img = $img.Resize "x30" }}
+                {{- if and site.Params.label.iconLight site.Params.label.iconDark }}
+                    {{- $imgLight := resources.Get site.Params.label.iconLight }}
+                    {{- $imgDark := resources.Get site.Params.label.iconDark }}
+                    {{- if and $imgLight $imgDark }}
+                        {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
+                        {{- if hugo.IsExtended -}}
+                            {{- $processableFormats = $processableFormats | append "webp" -}}
+                        {{- end -}}
+                        {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+                        {{- if and (in $processableFormats $imgLight.MediaType.SubType) (eq $prod true) }}
+                            {{- if site.Params.label.iconHeight }}
+                                {{- $imgLight = $imgLight.Resize (printf "x%d" site.Params.label.iconHeight) }}
+                                {{- $imgDark = $imgDark.Resize (printf "x%d" site.Params.label.iconHeight) }}
+                            {{ else }}
+                                {{- $imgLight = $imgLight.Resize "x30" }}
+                                {{- $imgDark = $imgDark.Resize "x30" }}
+                            {{- end }}
                         {{- end }}
+                        <img src="{{ $imgLight.Permalink }}" alt="" aria-label="logo" class="logo-light" height="{{- site.Params.label.iconHeight | default "30" -}}">
+                        <img src="{{ $imgDark.Permalink }}" alt="" aria-label="logo" class="logo-dark" height="{{- site.Params.label.iconHeight | default "30" -}}">
+                    {{- else }}
+                        <img src="{{- site.Params.label.iconLight | absURL -}}" alt="" aria-label="logo" class="logo-light" height="{{- site.Params.label.iconHeight | default "30" -}}">
+                        <img src="{{- site.Params.label.iconDark | absURL -}}" alt="" aria-label="logo" class="logo-dark" height="{{- site.Params.label.iconHeight | default "30" -}}">
                     {{- end }}
-                    <img src="{{ $img.Permalink }}" alt="" aria-label="logo"
-                        height="{{- site.Params.label.iconHeight | default "30" -}}">
-                {{- else }}
-                <img src="{{- site.Params.label.icon | absURL -}}" alt="" aria-label="logo"
-                    height="{{- site.Params.label.iconHeight | default "30" -}}">
-                {{- end -}}
                 {{- else if hasPrefix site.Params.label.iconSVG "<svg" }}
                     {{ site.Params.label.iconSVG | safeHTML }}
-                {{- end -}}
+                {{- end }}
             </a>
             {{- end }}
             <div class="logo-switches">
