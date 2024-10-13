@@ -10,7 +10,8 @@ params:
   keywords: [Blog, Portfolio, Electronic Engineer, Robotics, Embedded Systems, Software Development, FPGA]
 
   label:
-    icon: icons/logo-light.png
+    iconLight: icons/logo-light.png
+    iconDark: icons/logo-dark.png
     iconHeight: 44
 
   ShowReadingTime: true
