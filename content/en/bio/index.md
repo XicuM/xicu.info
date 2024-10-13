@@ -7,6 +7,8 @@ ShowBreadCrumbs: false
 
 I'm an **Electronics Engineer** with over 2 years of experience in BCN eMotorsport, the Formula Student team from Barcelona. I specialized in Power Electronics and later took the role of Team Leader.
 
+[Download my CV here](Francisco_MaríPrats_CV.pdf)
+
 <!-- {{< figure src="elephant.jpg" title="An elephant at sunset" >}} -->
 
 ## Professional Experience

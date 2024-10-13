@@ -1,5 +1,5 @@
 ---
-title: "Hello world"
+title: "The Start of Something New"
 date: 2024-10-10T16:00:48.772
 # weight: 1
 # aliases: ["/first"]
@@ -7,7 +7,6 @@ tags: []
 # showToc: false
 # TocOpen: true
 comments: true
-description: "My first post"
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: false
@@ -23,8 +22,4 @@ UseHugoToc: false
 #     appendFilePath: true # to append file path to Edit link
 ---
 
-## Hello World
-
-This is my first post.
-
-```python
+Hello everyone, welcome to my blog! I'm excited to start this new journey and share my thoughts and experiences with you. I hope you find my posts interesting and helpful. Stay tuned for more content coming soon! 🚀
