@@ -20,8 +20,9 @@ Create the `.github/workflows` folder and add the `hugo.yml` file with the conte
 
 ### To Dos
 
-- [x] Language redirection
+- [x] Added CV
 - [ ] Finish projects section
+- [ ] Include images in About me section
 - [ ] Finish contact form: https://www.formbackend.com/hugo-contact-form
 - [ ] Improve footer
 - [ ] Hamburguer menu: https://www.youtube.com/watch?v=U8smiWQ8Seg
