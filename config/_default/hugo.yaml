@@ -50,7 +50,7 @@ params:
 
 # Language configuration
 defaultContentLanguage: en
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
 
 # Goldmark configuration
 # markup:
