@@ -9,9 +9,15 @@ en:
   weight: 1
   params:
     profileMode:
-      enabled: true
       title: Welcome to my website! 👋
       subtitle: I'm **Xicu**, an Electronic Engineer passionate about Robotics, Embedded Systems, and Software Development. Here you will find my blog, projects and more. Enjoy your stay! 🚀
+      buttons:
+        - name: About me
+          url: "/bio"
+        - name: Blog
+          url: "/posts"
+        - name: Projects
+          url: "/projects"
   menu:
     main:
       - identifier: bio
@@ -42,9 +48,15 @@ es:
   weight: 2
   params:
     profileMode:
-      enabled: true
       title: ¡Bienvenido a mi sitio web! 👋
       subtitle: Soy **Xicu**, un Ingeniero Electrónico apasionado por la Robótica, Sistemas Embebidos y Desarrollo de Software. Aquí encontrarás mi blog, proyectos y más. ¡Disfruta tu visita! 🚀
+      buttons:
+      - name: Sobre mí
+        url: "/bio"
+      - name: Blog
+        url: "/posts"
+      - name: Proyectos
+        url: "/projectos"
   menu:
     main:
       - identifier: bio
@@ -56,8 +68,8 @@ es:
         url: /posts
         weight: 20
       - identifier: projects
-        name: Projectos
-        url: /projectos
+        name: Proyectos
+        url: /proyectos
         weight: 30
       - identifier: contact
         name: Contacto

@@ -9,6 +9,12 @@ params:
   env: production
   keywords: [Blog, Portfolio, Electronic Engineer, Robotics, Embedded Systems, Software Development, FPGA]
 
+  profileMode:
+    enabled: true
+    imageUrl: home/profile.png
+    imageWidth: 140
+    imageHeight: 140
+
   label:
     iconLight: icons/logo-light.png
     iconDark: icons/logo-dark.png
