@@ -155,3 +155,7 @@
 {{- template "partials/templates/twitter_cards.html" . }}
 {{- template "partials/templates/schema_json.html" . }}
 {{- end -}}
+
+{{ if .HasShortcode "adobepdf" }}
+<script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
+{{ end }}

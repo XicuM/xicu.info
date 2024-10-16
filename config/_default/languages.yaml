@@ -13,11 +13,11 @@ en:
       subtitle: I'm **Xicu**, an Electronic Engineer passionate about Robotics, Embedded Systems, and Software Development. Here you will find my blog, projects and more. Enjoy your stay! 🚀
       buttons:
         - name: About me
-          url: "/bio"
+          url: /bio
         - name: Blog
-          url: "/posts"
+          url: /posts
         - name: Projects
-          url: "/projects"
+          url: /projects
   menu:
     main:
       - identifier: bio
@@ -52,11 +52,11 @@ es:
       subtitle: Soy **Xicu**, un Ingeniero Electrónico apasionado por la Robótica, Sistemas Embebidos y Desarrollo de Software. Aquí encontrarás mi blog, proyectos y más. ¡Disfruta tu visita! 🚀
       buttons:
       - name: Sobre mí
-        url: "/bio"
+        url: /bio
       - name: Blog
-        url: "/posts"
+        url: /posts
       - name: Proyectos
-        url: "/projectos"
+        url: /proyectos
   menu:
     main:
       - identifier: bio
@@ -65,11 +65,11 @@ es:
         weight: 10
       - identifier: blog
         name: Blog
-        url: /posts
+        url: /eposts
         weight: 20
       - identifier: projects
         name: Proyectos
-        url: /proyectos
+        url: /projects
         weight: 30
       - identifier: contact
         name: Contacto
