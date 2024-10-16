@@ -7,31 +7,31 @@ ShowBreadCrumbs: false
 
 I'm an **Electronics Engineer** with over 2 years of experience in BCN eMotorsport, the Formula Student team from Barcelona. I specialized in Power Electronics and later took the role of Team Leader.
 
-[Download my CV here](Francisco_MaríPrats_CV.pdf)
+[Download my CV here](cv_XicuMarí.pdf)
 
 <!-- {{< figure src="elephant.jpg" title="An elephant at sunset" >}} -->
 
 ## Professional Experience
 
 #### Sep 2023 - Sep 2024
-> ### 🏎️ Team Leader
-> **BCN eMotorsport** · Universitat Politècnica de Catalunya 
+> ### Team Leader
+> {{< figure src=https://media.licdn.com/dms/image/D4D0BAQHS34knFO5mtA/company-logo_200_200/0/1714989313847/bcnemotorsport_logo?e=2147483647&v=beta&t=Skf4vT0b4loxK1MOgUO1eFLyDLIOXSjxifACRiUy07w width=24px >}} **BCN eMotorsport** · Universitat Politècnica de Catalunya 
 > - Led and coordinated departments in a Formula Student team focused on designing, manufacturing and testing an electric, driverless car.
 > - Managed team organization, documentation software, event planning, budgeting, and sponsorship agreements.
 
 #### Feb 2022 - Sep 2024
-> ### ⚡ Power Electronics Engineer
+> ### Power Electronics Engineer
 > **BCN eMotorsport** · Universitat Politècnica de Catalunya 
 > - Led and coordinated departments in a Formula Student team focused on designing, manufacturing and testing an electric, driverless car.
 > - Managed team organization, documentation software, event planning, budgeting, and sponsorship agreements.
 
 #### Feb 2022 - Jul 2022
-> ### 🧑🏻‍💻 Software Engineer Trainee
+> ### Software Engineer Trainee
 > **Premium PSU** · L'Hospitalet de Llobregat
 > - Performed firmware programming and automation scripting for electric vehicle chargers on the Floox team at Premium PSU.
 
 #### Jun 2016 - Sep 2016 &nbsp; | &nbsp; Jun 2017 - Sep 2017
-> ### 🏨 Hotel Receptionist
+> ### Hotel Receptionist
 > **Hotel Ses Savines** · Sant Antoni de Portmany, Ibiza
 > - Delivered customer service to hotel guests, addressing inquiries and resolving issues.
 > - Managed reservations, facilitated check-ins and check-outs, and handled other administrative tasks.

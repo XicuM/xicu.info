@@ -1,6 +1,8 @@
 baseURL: https://xicu.info
 title: Xicu Marí
-theme: PaperMod
+theme: 
+  - hugo-adobe-pdf-embed
+  - PaperMod
 
 enableEmoji: true
 enableRobotsTXT: true
@@ -8,6 +10,8 @@ enableRobotsTXT: true
 params:
   env: production
   keywords: [Blog, Portfolio, Electronic Engineer, Robotics, Embedded Systems, Software Development, FPGA]
+
+  adobeClientId: d4ab997cffc5481fb4699cc548b3e9b5
 
   profileMode:
     enabled: true
