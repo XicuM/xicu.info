@@ -17,6 +17,6 @@ Estoy increíblemente orgulloso de todo lo que logramos juntos: los desafíos t�
 
 Aunque mi tiempo en el equipo ha terminado, estoy seguro de que el futuro depara aún mayores éxitos para BCN eMotorsport. ¡Seguid empujando los límites y evolucionando hacia el futuro!
 
-<!-- ## Gallery
+## Gallery
 
-{{< gallery globalMatch="fs/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}} -->
+{{< gallery globalMatch="fs/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
