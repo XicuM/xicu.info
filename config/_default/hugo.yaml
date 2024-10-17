@@ -2,7 +2,9 @@ baseURL: https://xicu.info
 title: Xicu Marí
 theme: 
   - hugo-adobe-pdf-embed
+  - hugo-shortcode-gallery
   - PaperMod
+
 
 enableEmoji: true
 enableRobotsTXT: true
@@ -67,8 +69,6 @@ defaultContentLanguageInSubdir: true
 #   goldmark:
 #     renderer:
 #       unsafe: true
-#   related:
-#     threshold: 80
 #   renderHooks:
 #       image:
-#         enableDefault: false
+#         enableDefault: true

@@ -9,30 +9,29 @@ I'm an **Electronics Engineer** with over 2 years of experience in BCN eMotorspo
 
 [Download my CV here](cv_XicuMarí.pdf)
 
-<!-- {{< figure src="elephant.jpg" title="An elephant at sunset" >}} -->
-
 ## Professional Experience
 
 #### Sep 2023 - Sep 2024
 > ### Team Leader
-> {{< figure src=https://media.licdn.com/dms/image/D4D0BAQHS34knFO5mtA/company-logo_200_200/0/1714989313847/bcnemotorsport_logo?e=2147483647&v=beta&t=Skf4vT0b4loxK1MOgUO1eFLyDLIOXSjxifACRiUy07w width=24px >}} **BCN eMotorsport** · Universitat Politècnica de Catalunya 
+> {{< icon src=https://media.licdn.com/dms/image/D4D0BAQHS34knFO5mtA/company-logo_200_200/0/1714989313847/bcnemotorsport_logo?e=2147483647&v=beta&t=Skf4vT0b4loxK1MOgUO1eFLyDLIOXSjxifACRiUy07w >}} **BCN eMotorsport** · Universitat Politècnica de Catalunya 
 > - Led and coordinated departments in a Formula Student team focused on designing, manufacturing and testing an electric, driverless car.
 > - Managed team organization, documentation software, event planning, budgeting, and sponsorship agreements.
 
 #### Feb 2022 - Sep 2024
 > ### Power Electronics Engineer
-> **BCN eMotorsport** · Universitat Politècnica de Catalunya 
-> - Led and coordinated departments in a Formula Student team focused on designing, manufacturing and testing an electric, driverless car.
-> - Managed team organization, documentation software, event planning, budgeting, and sponsorship agreements.
+> {{< icon src=https://media.licdn.com/dms/image/D4D0BAQHS34knFO5mtA/company-logo_200_200/0/1714989313847/bcnemotorsport_logo?e=2147483647&v=beta&t=Skf4vT0b4loxK1MOgUO1eFLyDLIOXSjxifACRiUy07w >}} **BCN eMotorsport** · Universitat Politècnica de Catalunya 
+> - Modeled and simulated control algorithms for permanent magnet drives.
+> - Programmed embedded SoC with FPGA for three-phase inverter control.
+> - Worked on lithium cell behavior to enhance battery performance.
 
 #### Feb 2022 - Jul 2022
 > ### Software Engineer Trainee
-> **Premium PSU** · L'Hospitalet de Llobregat
+> {{< icon src=https://media.licdn.com/dms/image/v2/D4D0BAQGDDzVGaxwVVQ/company-logo_200_200/company-logo_200_200/0/1719903468616/premium_psu_logo?e=2147483647&v=beta&t=kxm3dLahJ7phU674QrdVNoH_rfTQiFGDwXI64WunZiY >}} **Premium PSU** · L'Hospitalet de Llobregat
 > - Performed firmware programming and automation scripting for electric vehicle chargers on the Floox team at Premium PSU.
 
 #### Jun 2016 - Sep 2016 &nbsp; | &nbsp; Jun 2017 - Sep 2017
 > ### Hotel Receptionist
-> **Hotel Ses Savines** · Sant Antoni de Portmany, Ibiza
+> {{< icon src=https://scontent.fbcn13-1.fna.fbcdn.net/v/t39.30808-1/300623949_506822344778310_17593645823612175_n.jpg?stp=dst-jpg_s480x480&_nc_cat=109&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=sXG4OOXwuZcQ7kNvgGYMQSz&_nc_zt=24&_nc_ht=scontent.fbcn13-1.fna&_nc_gid=AMDDRPzh-huYnEAHSow-ZFt&oh=00_AYACZfyZDW9pHafCXUG7_Odp7G6r0O6OGQp8lidBgXB0hA&oe=6716D7CC rounded="true" >}} **Hotel Ses Savines** · Sant Antoni de Portmany, Ibiza
 > - Delivered customer service to hotel guests, addressing inquiries and resolving issues.
 > - Managed reservations, facilitated check-ins and check-outs, and handled other administrative tasks.
 

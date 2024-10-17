@@ -50,7 +50,7 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Install Hugo theme
+      - name: Install Hugo themes
         run: git submodule update --init --recursive
       - name: Build with Hugo
         env:

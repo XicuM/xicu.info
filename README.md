@@ -4,6 +4,14 @@ This is the source code of my personal website. It is built with [Hugo](https://
 
 ## Developer notes
 
+### Server
+
+To run the server with drafts and future posts, use the following command:
+
+```bash
+hugo server --ignoreCache -D
+```
+
 ### Papermod theme
 
 The theme is included as a git submodule. To add it, use the following command:
@@ -20,12 +28,11 @@ Create the `.github/workflows` folder and add the `hugo.yml` file with the conte
 
 ### To Dos
 
-- [x] Add PDF Viewer
-- [x] Mermaid support
-- [x] Reduced profile picture
+- [x] Add gallery shortcode
 - [ ] Finish projects section
 - [ ] Include images in About me section
 - [ ] Finish contact form: https://www.formbackend.com/hugo-contact-form
 - [ ] Improve footer
 - [ ] Hamburguer menu: https://www.youtube.com/watch?v=U8smiWQ8Seg
 - [ ] Subscribe button
+- [ ] Consider migrating to Astro

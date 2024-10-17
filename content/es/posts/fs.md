@@ -5,7 +5,6 @@ ShowWordCount: false
 comments: true
 cover:
     image: https://media.licdn.com/dms/image/v2/D4D22AQG7VYmgRw2AOA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1725816773955?e=1731542400&v=beta&t=GWMfsLU3Qn93IvMRzvA6i2ZUucwhP35wsNuVPdhnnj8
-    relative: true
 ---
 
 Después de dos años increíbles con [BCN eMotorsport](bcnemotorsport.upc.edu), es hora de decir adiós. Desde mi primer año y medio trabajando en el desarrollo de nuestro inversor hasta este último año como Team Leader, ha sido un viaje inolvidable.
@@ -17,3 +16,5 @@ También comprendí el valor de la contribución de cada compañero de equipo y 
 Estoy increíblemente orgulloso de todo lo que logramos juntos: los desafíos técnicos que superamos, las incontables horas que dedicamos a perfeccionar el coche, las amistades que hice y los recuerdos que creamos juntos.
 
 Aunque mi tiempo en el equipo ha terminado, estoy seguro de que el futuro depara aún mayores éxitos para BCN eMotorsport. ¡Seguid empujando los límites y evolucionando hacia el futuro!
+
+{{< gallery globalMatch="fs/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
