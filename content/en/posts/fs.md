@@ -18,6 +18,6 @@ I’m incredibly proud of everything we accomplished together: the technical cha
 
 Though my time with the team has ended, I’m confident that the future holds even greater success for BCN eMotorsport. Keep pushing boundaries and evolving into the future!
 
-<!-- ## Gallery
+## Gallery
 
-{{< gallery globalMatch="fs/*" sortOrder="asc" rowHeight="150" margins="8" thumbnailResizeOptions="600x600 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true lastRow="nojustify" loadJQuery=true >}} -->
+{{< gallery globalMatch="fs/*" sortOrder="asc" rowHeight="150" margins="8" thumbnailResizeOptions="600x600 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true lastRow="nojustify" loadJQuery=true >}}
