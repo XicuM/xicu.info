@@ -1,9 +1,0 @@
-[submodule "themes/PaperMod"]
-	path = themes/PaperMod
-	url = https://github.com/adityatelange/hugo-PaperMod.git
-[submodule "themes/hugo-adobe-pdf-embed"]
-	path = themes/hugo-adobe-pdf-embed
-	url = https://github.com/tomdeabreucodes/hugo-adobe-pdf-embed.git
-[submodule "themes/hugo-shortcode-gallery"]
-	path = themes/hugo-shortcode-gallery
-	url = https://github.com/mfg92/hugo-shortcode-gallery.git
