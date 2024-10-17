@@ -12,12 +12,12 @@ To run the server with drafts and future posts, use the following command:
 hugo server --ignoreCache -D
 ```
 
-### Papermod theme
+### Add themes
 
-The theme is included as a git submodule. To add it, use the following command:
+To add a theme as a submodule, use the following command:
 
 ```bash
-git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod 
+git submodule add --depth=1 url_to_theme themes/theme_name
 ```
 
 The features of this theme are described in [PaperMod's Wiki](https://github.com/adityatelange/hugo-PaperMod/wiki).
