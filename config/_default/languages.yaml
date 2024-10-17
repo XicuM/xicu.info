@@ -10,31 +10,31 @@ en:
   params:
     profileMode:
       title: Welcome to my website! 👋
-      subtitle: I'm **Xicu**, an Electronic Engineer passionate about Robotics, Embedded Systems, and Software Development. Here you will find my blog, projects and more. Enjoy your stay! 🚀
+      subtitle: I'm **Xicu**, an Electronic Engineer passionate about Robotics, Software Development and Philosophy. Here you will find my blog, projects and more. Enjoy your stay! 🚀
       buttons:
         - name: About me
-          url: /bio
+          url: /en/bio
         - name: Blog
-          url: /posts
+          url: /en/posts
         - name: Projects
-          url: /projects
+          url: /en/projects
   menu:
     main:
       - identifier: bio
         name: About me
-        url: /bio
+        url: /en/bio
         weight: 1
       - identifier: blog
         name: Blog
-        url: /posts
+        url: /en/posts
         weight: 2
       - identifier: projects
         name: Projects
-        url: /projects
+        url: /en/projects
         weight: 3
       - identifier: contact
         name: Contact
-        url: /contact
+        url: /en/contact
         weight: 4
 
 # ----------------------------------------------------------------------
@@ -49,29 +49,29 @@ es:
   params:
     profileMode:
       title: ¡Bienvenido a mi sitio web! 👋
-      subtitle: Soy **Xicu**, un Ingeniero Electrónico apasionado por la Robótica, Sistemas Embebidos y Desarrollo de Software. Aquí encontrarás mi blog, proyectos y más. ¡Disfruta tu visita! 🚀
+      subtitle: Soy **Xicu**, un Ingeniero Electrónico apasionado por la Robótica, Desarrollo de Software y Filosofía. Aquí encontrarás mi blog, proyectos y más. ¡Disfruta tu visita! 🚀
       buttons:
       - name: Sobre mí
-        url: /bio
+        url: /es/bio
       - name: Blog
-        url: /posts
+        url: /es/posts
       - name: Proyectos
-        url: /proyectos
+        url: /es/proyectos
   menu:
     main:
       - identifier: bio
         name: Sobre mí
-        url: /bio
+        url: /es/bio
         weight: 10
       - identifier: blog
         name: Blog
-        url: /eposts
+        url: /es/posts
         weight: 20
       - identifier: projects
         name: Proyectos
-        url: /projects
+        url: /es/proyectos
         weight: 30
       - identifier: contact
         name: Contacto
-        url: /contact
+        url: /es/contact
         weight: 40
