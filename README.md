@@ -9,7 +9,7 @@ This is the source code of my personal website. It is built with [Hugo](https://
 To run the server with drafts and future posts, use the following command:
 
 ```bash
-hugo server --ignoreCache -D
+hugo server --disableFastRender -D
 ```
 
 ### Add themes
