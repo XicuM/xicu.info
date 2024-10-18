@@ -5,7 +5,6 @@ theme:
   - hugo-shortcode-gallery
   - PaperMod
 
-
 enableEmoji: true
 enableRobotsTXT: true
 
@@ -13,7 +12,11 @@ params:
   env: production
   keywords: [Blog, Portfolio, Electronic Engineer, Robotics, Embedded Systems, Software Development, FPGA]
 
-  adobeClientId: d4ab997cffc5481fb4699cc548b3e9b5
+  # Adobe Embed PDF (Production)
+  #adobeClientId: b43ddb4a61184cbb9a808df9f177dc01
+  
+  # Adobe Embed PDF (Localhost)
+  adobeClientId: 575c9ad6052b4bbead8648193d6d51e2
 
   profileMode:
     enabled: true
@@ -72,3 +75,34 @@ defaultContentLanguageInSubdir: true
 #   renderHooks:
 #       image:
 #         enableDefault: true
+
+markup:
+
+  # Goldmark configuration
+  goldmark:
+    extensions:
+      taskList: true
+      table: true
+      extras:
+        delete:
+          enable: false
+        insert:
+          enable: false
+        mark:
+          enable: false
+        subscript:
+          enable: false
+        superscript:
+          enable: false
+      strikethrough: false
+
+  # Code highlighting
+  highlight:
+    codeFences: true
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false
+
+  # Table of contents
+  tableOfContents:
+    ordered: true
