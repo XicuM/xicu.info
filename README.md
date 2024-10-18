@@ -28,7 +28,7 @@ Create the `.github/workflows` folder and add the `hugo.yml` file with the conte
 
 ### To Dos
 
-- [x] Add gallery shortcode
+- [x] Flavoured markdown
 - [ ] Finish projects section
 - [ ] Include images in About me section
 - [ ] Finish contact form: https://www.formbackend.com/hugo-contact-form
