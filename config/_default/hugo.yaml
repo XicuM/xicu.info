@@ -13,10 +13,10 @@ params:
   keywords: [Blog, Portfolio, Electronic Engineer, Robotics, Embedded Systems, Software Development, FPGA]
 
   # Adobe Embed PDF (Production)
-  #adobeClientId: b43ddb4a61184cbb9a808df9f177dc01
+  adobeClientId: b43ddb4a61184cbb9a808df9f177dc01
   
   # Adobe Embed PDF (Localhost)
-  adobeClientId: 575c9ad6052b4bbead8648193d6d51e2
+  #adobeClientId: 575c9ad6052b4bbead8648193d6d51e2
 
   profileMode:
     enabled: true
