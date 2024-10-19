@@ -4,7 +4,58 @@
     body:not(.dark) .logo-dark { display: none; }
     body.dark .logo-dark { display: inline; }
     body:not(.dark) .logo-light { display: inline; }
+
+    a.logo-link { padding-left: 8px; }
+
+    .logo-link:hover { 
+        border-radius: 16px;
+        background-color: var(--entry); 
+    }
+
+    /* Sidebar */
+    #sidebar { 
+        display: none;
+        margin: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 200px;
+        z-index: 900;
+        background-color: var(--code-bg);
+        box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+        padding-left: 40px;
+    }
+    #sidebar li { 
+        margin: 0;
+        width: 100%; 
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    @media(max-width: 550px) {
+        .hideOnMobile { display: none; }
+        .menu-button { display: block; }
+    }
+
 </style>
+
+<!-- Show and hide sidebar script -->
+<script>
+    function showSidebar() {
+        const sidebar = document.querySelector('#sidebar');
+        sidebar.style.display = 'flex';
+    } 
+    function hideSidebar() {
+        const sidebar = document.querySelector('#sidebar');
+        sidebar.style.display = 'none';
+    }
+</script>
 
 {{- /* theme-toggle is enabled */}}
 {{- if (not site.Params.disableThemeToggle) }}
@@ -52,7 +103,7 @@
         <div class="logo">
             {{- $label_text := (site.Params.label.text | default site.Title) }}
             {{- if site.Title }}
-            <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
+            <a class="logo-link" href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
                 {{- if and site.Params.label.iconLight site.Params.label.iconDark }}
                     {{- $imgLight := resources.Get site.Params.label.iconLight }}
                     {{- $imgDark := resources.Get site.Params.label.iconDark }}
@@ -84,7 +135,7 @@
             {{- end }}
             <div class="logo-switches">
                 {{- if (not site.Params.disableThemeToggle) }}
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                <button class="logo-link" id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -130,7 +181,46 @@
             </div>
         </div>
         {{- $currentPage := . }}
-        <ul id="menu">
+        <ul class="menu">
+            {{- range site.Menus.main }}
+            {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
+            {{- $page_url:= $currentPage.Permalink | absLangURL }}
+            {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
+            <li class="hideOnMobile">
+                <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
+                {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
+                    <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
+                        {{- .Pre }}
+                        {{- .Name -}}
+                        {{ .Post -}}
+                    </span>
+                    {{- if (findRE "://" .URL) }}&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                    {{- end }}
+                </a>
+            </li>
+            {{- end }}
+            <!-- Menu button -->
+            <li class="menu-button" onclick=showSidebar()>
+                <a href="#">
+                    <svg style="margin-right: 6px; position: relative; vertical-align: -4px;" class="logo-dark" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#dadadb"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                    <svg style="margin-right: 6px; position: relative; vertical-align: -4px;" class="logo-light" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1e1e1e"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                </a>
+            </li>
+        </ul>
+        <ul class="menu" id="sidebar">
+            <!-- Close button -->
+            <li onclick=hideSidebar()>
+                <a href="#">
+                    <svg style="float: right; margin-top: 16px; margin-right: 20px;" class="logo-light" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1e1e1e"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                    <svg style="float: right; margin-top: 16px; margin-right: 20px;" class="logo-dark" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#dadadb"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                </a>
+            </li>
             {{- range site.Menus.main }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
             {{- $page_url:= $currentPage.Permalink | absLangURL }}

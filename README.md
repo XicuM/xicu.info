@@ -28,11 +28,11 @@ Create the `.github/workflows` folder and add the `hugo.yml` file with the conte
 
 ### To Dos
 
-- [x] Flavoured markdown
 - [ ] Finish projects section
+  - [ ] Make grid: https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41420fe
+- [ ] Blog section: include images on the left not on top of each entry
 - [ ] Include images in About me section
 - [ ] Finish contact form: https://www.formbackend.com/hugo-contact-form
 - [ ] Improve footer
-- [ ] Hamburguer menu: https://www.youtube.com/watch?v=U8smiWQ8Seg
-- [ ] Subscribe button
+- [x] Hamburguer menu: https://www.youtube.com/watch?v=U8smiWQ8Seg
 - [ ] Consider migrating to Astro

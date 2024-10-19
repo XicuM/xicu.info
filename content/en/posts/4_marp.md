@@ -54,7 +54,6 @@ style: |
    }
 ```
 
-<!-- Add example -->
-<!-- {{< adobepdf url="Francisco_MaríPrats_CV.pdf" name="Curriculum Vitae" embedMode="FULL_WINDOW" >}} -->
+<!-- {{< pdf url=".pdf" name="Curriculum Vitae" >}} -->
 
 If you have reached this point, you are ready to start creating beautiful presentations with Marp. Enjoy! 🚀

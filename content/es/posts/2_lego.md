@@ -21,7 +21,7 @@ A nivel personal, el modelo de Lego tiene un significado especial para mí. Repr
 
 Si quieres experimentar un poco de lo que fue construir el coche real, puedes crear tu propio modelo de Lego del CAT16x. Las instrucciones detalladas están disponibles en el PDF a continuación. Puedes obtener las piezas necesarias contactándome o comprándolas en línea.
 
-{{< adobepdf url="/posts/lego/instructions.pdf" height="480px" name="CAT16x Lego" >}}
+{{< pdf url="/posts/lego/instructions.pdf" height="480px" name="CAT16x Lego" >}}
 
 ¡Diviértete construyéndolo! Una vez que completes tu modelo, no dudes en enviarme una foto. ¡Me encantaría verlo!
 
