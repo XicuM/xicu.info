@@ -1,6 +1,7 @@
 ---
 title: Minecraft IBZ
 date: 2024-10-11T11:17:03+02:00
+description: Minecraft IBZ es un proyecto que tiene como objetivo recrear la isla de Ibiza en Minecraft.
 hideMeta: true
 ShowBreadCrumbs: true
 draft: true

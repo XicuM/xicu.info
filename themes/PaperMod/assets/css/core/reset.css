@@ -116,3 +116,22 @@ img {
     display: block;
     max-width: 100%;
 }
+
+nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+a.social-icon:hover {
+    border-radius: 50%;
+    background-color: var(--entry);
+}
+
+a.button:hover {
+    background-color: var(--entry);
+}
+
+.breadcrumbs a:hover,
+p a:hover {
+    background-color: var(--tertiary);
+}

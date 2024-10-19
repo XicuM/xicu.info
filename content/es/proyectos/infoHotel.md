@@ -1,5 +1,5 @@
 ---
-title: "InfoHotel: Pantalla de información para hoteles"
+title: "InfoHotel"
 date: 2024-10-14T00:06:49+02:00
 hideMeta: true
 ShowBreadCrumbs: true
