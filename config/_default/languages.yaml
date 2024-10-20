@@ -7,7 +7,9 @@ en:
   languageCode: "en-US"
   languageName: English
   weight: 1
+  
   params:
+    description: I'm Xicu, an Electronic Engineer passionate about Robotics, Software Development and Philosophy. Here you will find my blog, projects and more. Enjoy your stay!
     profileMode:
       title: Welcome to my website! 👋
       subtitle: I'm **Xicu**, an Electronic Engineer passionate about Robotics, Software Development and Philosophy. Here you will find my blog, projects and more. Enjoy your stay! 🚀
@@ -18,6 +20,7 @@ en:
           url: /en/posts
         - name: Projects
           url: /en/projects
+
   menu:
     main:
       - identifier: bio
@@ -37,6 +40,16 @@ en:
         url: /en/contact
         weight: 4
 
+  socialIcons:
+  - name: Email
+    url: /en/contact
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/xicu
+  - name: Github
+    url: https://github.com/XicuM
+  - name: Instagram
+    url: https://www.instagram.com/xicu.m
+
 # ----------------------------------------------------------------------
 # Español
 
@@ -46,7 +59,9 @@ es:
   languageCode: "es-ES"
   languageName: Español
   weight: 2
+
   params:
+    description: Soy Xicu, un Ingeniero Electrónico apasionado por la Robótica, Desarrollo de Software y Filosofía. Aquí encontrarás mi blog, proyectos y más. ¡Disfruta tu visita!
     profileMode:
       title: ¡Bienvenido a mi sitio web! 👋
       subtitle: Soy **Xicu**, un Ingeniero Electrónico apasionado por la Robótica, Desarrollo de Software y Filosofía. Aquí encontrarás mi blog, proyectos y más. ¡Disfruta tu visita! 🚀
@@ -57,6 +72,7 @@ es:
         url: /es/posts
       - name: Proyectos
         url: /es/proyectos
+
   menu:
     main:
       - identifier: bio
@@ -75,3 +91,13 @@ es:
         name: Contacto
         url: /es/contact
         weight: 40
+
+  socialIcons:
+  - name: Email
+    url: /es/contact
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/xicu
+  - name: Github
+    url: https://github.com/XicuM
+  - name: Instagram
+    url: https://www.instagram.com/xicu.m

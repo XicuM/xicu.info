@@ -1,0 +1,49 @@
+<style>
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid var(--border);
+        background-color: var(--entry);
+        border-radius: var(--radius);
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 12px;
+        resize: vertical;
+        color: var(--primary);
+    }
+
+    label {
+        padding-left: 8px;
+        font-weight: 500;
+    }
+
+    input.button {
+        padding-left: 8px; 
+        padding-right: 8px; 
+        margin: 0; 
+        margin-top: 2px;
+        color: var(--primary);
+        background-color: var(--border);
+    }
+
+    input.button:hover {
+        background-color: var(--tertiary);
+        color: var(--background);
+    }
+</style>
+
+<form action="https://formspree.io/f/mldedeww" method="POST">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name here...">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email here...">
+
+    <label for="subject">Subject</label>
+    <input type="text" id="email" name="subject" placeholder="Your subject here...">
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write the message here..." style="height:140px"></textarea>
+
+    <input class="button" type="submit" value="Submit"></a>
+</form>
