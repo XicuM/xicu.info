@@ -10,6 +10,7 @@ enableRobotsTXT: true
 
 params:
   env: production
+  defaultTheme: auto
   keywords: [Blog, Portfolio, Electronic Engineer, Robotics, Embedded Systems, Software Development, FPGA]
 
   # Adobe Embed PDF (Production)
@@ -24,13 +25,16 @@ params:
     imageWidth: 140
     imageHeight: 140
 
+  cover:
+    linkFullImages: true
+
   label:
     iconLight: icons/logo-light.png
     iconDark: icons/logo-dark.png
     iconHeight: 44
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -51,17 +55,6 @@ params:
     favicon16x16: icons/favicon-16x16.png
     favicon32x32: icons/favicon-32x32.png
     apple_touch_icon: icons/apple-touch-icon.png
-    
-  # Social Icons
-  socialIcons:
-  - name: Email
-    url: mailto:hello@xicu.info
-  - name: LinkedIn
-    url: https://www.linkedin.com/in/xicu
-  - name: Github
-    url: https://github.com/XicuM
-  - name: Instagram
-    url: https://www.instagram.com/xicu.m
 
 # Language configuration
 defaultContentLanguage: en

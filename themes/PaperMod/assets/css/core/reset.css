@@ -131,7 +131,10 @@ a.button:hover {
     background-color: var(--entry);
 }
 
-.breadcrumbs a:hover,
+.breadcrumbs a:hover{
+    border-radius: 6px;
+    background-color: var(--border);
+}
 p a:hover {
-    background-color: var(--tertiary);
+    background-color: var(--border);
 }
