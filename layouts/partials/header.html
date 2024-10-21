@@ -1,4 +1,10 @@
 <style>
+    .header {
+        position: sticky;
+        top: 0;
+        z-index: 900;
+    }
+
     /* Logo Theme Toggle */
     body.dark .logo-light { display: none; }
     body:not(.dark) .logo-dark { display: none; }
@@ -47,6 +53,11 @@
 
 <!-- Show and hide sidebar script -->
 <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const bodyBackgroundColor = getComputedStyle(document.body).backgroundColor; 
+        document.querySelector('.header').style.backgroundColor = bodyBackgroundColor;
+    });
+    
     function showSidebar() {
         const sidebar = document.querySelector('#sidebar');
         sidebar.style.display = 'flex';
