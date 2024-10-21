@@ -3,7 +3,17 @@
         position: sticky;
         top: 0;
         z-index: 900;
+        background-color: var(--theme);
     }
+
+    .list .header {
+        background: var(--code-bg);
+    }
+    
+    .dark.list .header {
+        background: var(--theme);
+    }
+    
 
     /* Logo Theme Toggle */
     body.dark .logo-light { display: none; }
@@ -52,12 +62,7 @@
 </style>
 
 <!-- Show and hide sidebar script -->
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const bodyBackgroundColor = getComputedStyle(document.body).backgroundColor; 
-        document.querySelector('.header').style.backgroundColor = bodyBackgroundColor;
-    });
-    
+<script>  
     function showSidebar() {
         const sidebar = document.querySelector('#sidebar');
         sidebar.style.display = 'flex';
