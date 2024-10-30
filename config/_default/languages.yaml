@@ -21,6 +21,16 @@ en:
         - name: Projects
           url: /en/projects
 
+    socialIcons:
+    - name: Email
+      url: /en/contact
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/xicu
+    - name: Github
+      url: https://github.com/XicuM
+    - name: Instagram
+      url: https://www.instagram.com/xicu.m
+
   menu:
     main:
       - identifier: bio
@@ -39,16 +49,6 @@ en:
         name: Contact
         url: /en/contact
         weight: 4
-
-  socialIcons:
-  - name: Email
-    url: /en/contact
-  - name: LinkedIn
-    url: https://www.linkedin.com/in/xicu
-  - name: Github
-    url: https://github.com/XicuM
-  - name: Instagram
-    url: https://www.instagram.com/xicu.m
 
 # ----------------------------------------------------------------------
 # Español
@@ -73,6 +73,16 @@ es:
       - name: Proyectos
         url: /es/proyectos
 
+    socialIcons:
+    - name: Email
+      url: /es/contact
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/xicu
+    - name: Github
+      url: https://github.com/XicuM
+    - name: Instagram
+      url: https://www.instagram.com/xicu.m
+
   menu:
     main:
       - identifier: bio
@@ -91,13 +101,3 @@ es:
         name: Contacto
         url: /es/contact
         weight: 40
-
-  socialIcons:
-  - name: Email
-    url: /es/contact
-  - name: LinkedIn
-    url: https://www.linkedin.com/in/xicu
-  - name: Github
-    url: https://github.com/XicuM
-  - name: Instagram
-    url: https://www.instagram.com/xicu.m

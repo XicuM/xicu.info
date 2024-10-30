@@ -2,9 +2,23 @@
 <html>
 <head>
     <title>{{ .Permalink }}</title>
-    <link rel="canonical" href="{{ .Permalink }}"/>
     <meta name="robots" content="index, follow">
     <meta charset="utf-8"/>
+    <meta name="description" content="{{- site.Params.description }}">
+    <link rel="canonical" href="{{ if site.Params.canonicalURL -}} {{ trim site.Params.canonicalURL " " }} {{- else -}} {{ .Permalink }} {{- end }}">
+    {{- if site.Params.analytics.google.SiteVerificationTag }}
+    <meta name="google-site-verification" content="{{ site.Params.analytics.google.SiteVerificationTag }}">
+    {{- end }}
+    {{- if site.Params.analytics.yandex.SiteVerificationTag }}
+    <meta name="yandex-verification" content="{{ site.Params.analytics.yandex.SiteVerificationTag }}">
+    {{- end }}
+    {{- if site.Params.analytics.bing.SiteVerificationTag }}
+    <meta name="msvalidate.01" content="{{ site.Params.analytics.bing.SiteVerificationTag }}">
+    {{- end }}
+    {{- if site.Params.analytics.naver.SiteVerificationTag }}
+    <meta name="naver-site-verification" content="{{ site.Params.analytics.naver.SiteVerificationTag }}">
+    {{- end }}
+
     <noscript>
         <meta http-equiv="refresh" content="0; url={{ .Permalink }}"/>
     </noscript>

@@ -31,7 +31,7 @@ I'm an **Electronics Engineer** with over 2 years of experience in BCN eMotorspo
 
 #### Jun 2016 - Sep 2016 &nbsp; | &nbsp; Jun 2017 - Sep 2017
 > ### Hotel Receptionist
-> {{< icon src=https://scontent.fbcn13-1.fna.fbcdn.net/v/t39.30808-1/300623949_506822344778310_17593645823612175_n.jpg?stp=dst-jpg_s480x480&_nc_cat=109&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=sXG4OOXwuZcQ7kNvgGYMQSz&_nc_zt=24&_nc_ht=scontent.fbcn13-1.fna&_nc_gid=AMDDRPzh-huYnEAHSow-ZFt&oh=00_AYACZfyZDW9pHafCXUG7_Odp7G6r0O6OGQp8lidBgXB0hA&oe=6716D7CC rounded="true" >}} **Hotel Ses Savines** · Sant Antoni de Portmany, Ibiza
+> {{< icon src="/bio/savines_logo.png" >}} **Hotel Ses Savines** · Sant Antoni de Portmany, Ibiza
 > - Delivered customer service to hotel guests, addressing inquiries and resolving issues.
 > - Managed reservations, facilitated check-ins and check-outs, and handled other administrative tasks.
 
