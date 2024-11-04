@@ -30,12 +30,9 @@ Create the `.github/workflows` folder and add the `hugo.yml` file with the conte
 
 Content:
 - [ ] Add projects
-  - [x] infoHotel
   - [ ] TFG
+  - [ ] Backups
 
 Development:
 - [ ] Adding a meta description
-- [x] Finish projects section
-  - [x] Make grid: https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41420fe
-- [x] Blog section: include images on the left not on top of each entry
 - [ ] Include images in About me section
