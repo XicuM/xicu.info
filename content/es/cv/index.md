@@ -31,7 +31,7 @@ Soy un **Ingeniero Electrónico** con más de 2 años de experiencia en BCN eMot
 
 #### Jun 2016 - Sep 2016 &nbsp; | &nbsp; Jun 2017 - Sep 2017
 > ### Recepcionista de Hotel
-> {{< icon src="/bio/savines_logo.png" >}} **Hotel Ses Savines** · Sant Antoni de Portmany, Ibiza
+> {{< icon src="/cv/savines_logo.png" >}} **Hotel Ses Savines** · Sant Antoni de Portmany, Ibiza
 > - Proporcioné servicio al cliente a los huéspedes del hotel, atendiendo consultas y resolviendo problemas.
 > - Gestioné reservas, facilité check-ins y check-outs, y manejé otras tareas administrativas.
 

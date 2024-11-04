@@ -15,7 +15,7 @@ en:
       subtitle: I'm **Xicu**, an Electronic Engineer passionate about Robotics, Software Development and Philosophy. Here you will find my blog, projects and more. Enjoy your stay! 🚀
       buttons:
         - name: About me
-          url: /en/bio
+          url: /en/cv
         - name: Blog
           url: /en/posts
         - name: Projects
@@ -33,9 +33,9 @@ en:
 
   menu:
     main:
-      - identifier: bio
+      - identifier: cv
         name: About me
-        url: /en/bio
+        url: /en/cv
         weight: 1
       - identifier: blog
         name: Blog
@@ -67,7 +67,7 @@ es:
       subtitle: Soy **Xicu**, un Ingeniero Electrónico apasionado por la Robótica, Desarrollo de Software y Filosofía. Aquí encontrarás mi blog, proyectos y más. ¡Disfruta tu visita! 🚀
       buttons:
       - name: Sobre mí
-        url: /es/bio
+        url: /es/cv
       - name: Blog
         url: /es/posts
       - name: Proyectos
@@ -85,9 +85,9 @@ es:
 
   menu:
     main:
-      - identifier: bio
+      - identifier: cv
         name: Sobre mí
-        url: /es/bio
+        url: /es/cv
         weight: 10
       - identifier: blog
         name: Blog
