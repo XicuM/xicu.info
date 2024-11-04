@@ -5,6 +5,7 @@ hideMeta: true
 ShowBreadCrumbs: true
 comments: true
 draft: false
+# github: https://github.com/XicuM/infoHotel_demo
 icon: "/projects/infoHotel/icon.png"
 cover: 
     image: "/projects/infoHotel/screenshot.png"

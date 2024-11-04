@@ -6,6 +6,7 @@ ShowBreadCrumbs: true
 comments: false
 draft: false
 icon: "/projects/infoHotel/icon.png"
+# github: https://github.com/XicuM/infoHotel_demo
 cover: 
     image: "/projects/infoHotel/screenshot.png"
 ---
