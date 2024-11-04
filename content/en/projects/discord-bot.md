@@ -5,6 +5,7 @@ hideMeta: true
 ShowBreadCrumbs: true
 comments: true
 draft: false
+tags: ["Python"]
 github: https://github.com/XicuM/discord-bot
 icon: "/projects/discord-bot/bot.png"
 cover:

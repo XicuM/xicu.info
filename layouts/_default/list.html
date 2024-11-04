@@ -103,12 +103,11 @@
 {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
 {{- $class = "first-entry" }}
 {{- else if $term }}
-{{- $class = "post-entry tag-entry" }}
+{{- $class = "post-entry" }}
 {{- end }}
 
 <article class="{{ $class }}" style="margin:0px;">
-  {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
-  {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
+  {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" false) }}
   <header class="entry-header">
     <h2>
       {{- if (.Param "icon") }}

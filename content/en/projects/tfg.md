@@ -5,6 +5,7 @@ hideMeta: true
 ShowBreadCrumbs: true
 comments: true
 showToc: true
+tags: ["FPGA", "C++", "Simulink"]
 github: https://github.com/XicuM/tfg
 cover:
     image: /projects/tfg/control.png
@@ -57,7 +58,7 @@ To control the motor, a field-oriented control (FOC) algorithm was selected. Thi
 - **Maximum Torque per Ampere (MTPA)**, which provides the motor with optimal instructions at every moment to maximize torque while minimizing energy consumption. 
 - **Field weakening (FW)**, a strategy that cleverly adjusts the magnetic field to allow the motor to spin faster.
 
-{{< figure src="/projects/tfg/regions.png" caption="The operating regions of the motor controller, in the d-q frame.">}}
+{{< figure src="/projects/tfg/regions.png" caption="The operating regions of the motor controller, in the d-q frame." >}}
 
 FOC uses a series of clever transformations:
 
@@ -112,6 +113,6 @@ More than just a technical achievement, this project taught me valuable lessons 
 
 ## A Look Back
 
-Reflecting on my time at BCN eMotorsport, I look back this project with pride. We followed the project for another half a year. As a Team Leader the following year, I decided to abandon the project since it not longer fitter the team's strategy. Altough it would have been a great improvement for the team's future cars, the project was too ambitious and it was not the best way to spend the scarce resources in terms of time and personnel. Through great communication within the team, we opened the eyes and realized that many others projects could have had the same impact in the competitions with less effort.
+Reflecting on my time at BCN eMotorsport, I look back this project with pride. We followed the project for another half a year, working on the things we planned on the *Future Work* section. As a Team Leader the following year, I decided to abandon the project since it not longer fitter the team's strategy. Altough it would have been a great improvement for the team's future cars, the project was too ambitious and it was not the best way to spend the scarce resources in terms of time and personnel. Through great communication within the team, we opened the eyes and realized that many others projects could have had the same impact in the competitions with less effort.
 
 This second year at BCN eMotorsport taught me a most important, critical lesson: a good engineer must question the project requirements and objectives to avoid wasting months of work and other resources.
