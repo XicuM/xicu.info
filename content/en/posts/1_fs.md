@@ -5,7 +5,7 @@ ShowWordCount: false
 comments: true
 draft: false
 cover:
-    image: fs/9_fsg_team.jpg
+    image: /posts/fs/9_fsg_team.jpg
 ---
 
 After two unforgettable years with [BCN eMotorsport](https://bcnemotorsport.upc.edu), it’s time to say goodbye. From my first year and a half working on developing our inverter to this past year as a Team Leader, it has been an unforgettable journey.

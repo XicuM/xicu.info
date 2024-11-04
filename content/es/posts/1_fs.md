@@ -5,7 +5,7 @@ ShowWordCount: false
 comments: true
 draft: false
 cover:
-    image: https://media.licdn.com/dms/image/v2/D4D22AQG7VYmgRw2AOA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1725816773955?e=1731542400&v=beta&t=GWMfsLU3Qn93IvMRzvA6i2ZUucwhP35wsNuVPdhnnj8
+    image: /posts/fs/9_fsg_team.jpg
 ---
 
 Después de dos años increíbles con [BCN eMotorsport](https://bcnemotorsport.upc.edu), es hora de decir adiós. Desde mi primer año y medio trabajando en el desarrollo de nuestro inversor hasta este último año como Team Leader, ha sido un viaje inolvidable.
