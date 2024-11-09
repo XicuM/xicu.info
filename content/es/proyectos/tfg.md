@@ -48,7 +48,7 @@ Si tienes curiosidad, puedes descargar la tesis completa [aquí](https://upcommo
 
 ## El marco teórico
 
-{{< figure src="/projects/tfg/inverter.png" alt="Algoritmo de control" caption="Esquema de un inversor ideal." >}}
+{{< figure src="/projects/tfg/inverter.svg" alt="Algoritmo de control" caption="Esquema de un inversor ideal." >}}
 
 Los motores IPMSM se puede modelar como una inductancia y una resistencia en serie para cada fase. Hay dos tipos de conexiones en un motor trifásico: estrella y delta. En este caso, la conexión era una conexión en estrella: las tres ramas del motor se unen en un punto medio llamado punto neutro, simbolizado por una 'n'.
 
