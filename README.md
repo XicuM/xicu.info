@@ -25,14 +25,3 @@ The features of this theme are described in [PaperMod's Wiki](https://github.com
 ### Deploy the website in GitHub Pages
 
 Create the `.github/workflows` folder and add the `hugo.yml` file with the content of this [link](https://gist.githubusercontent.com/thisismikekelly/1a24ad2c8c923127dc3cb29edca13746/raw/f5d449a0aca3d33b88825e563734e6d782752e4a/hugo.yaml).
-
-### To Dos
-
-Content:
-- [ ] Add projects
-  - [ ] TFG
-  - [ ] Backups
-
-Development:
-- [ ] Adding a meta description
-- [ ] Include images in About me section

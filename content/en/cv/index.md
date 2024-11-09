@@ -3,6 +3,7 @@ title: 'About me'
 date: 2024-10-11T08:42:50+02:00
 hideMeta: true
 ShowBreadCrumbs: false
+disableAnchoredHeadings: true
 ---
 
 I'm an **Electronics Engineer** with over 2 years of experience in BCN eMotorsport, the Formula Student team from Barcelona. I specialized in Power Electronics and later took the role of Team Leader.

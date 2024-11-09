@@ -9,10 +9,10 @@ en:
   weight: 1
   
   params:
-    description: I'm Xicu, an Electronic Engineer passionate about Robotics, Software Development and Philosophy. Here you will find my blog, projects and more. Enjoy your stay!
+    description: I'm Xicu, an Electronic Engineer passionate about Electrons, Software Development and Philosophy. Here you will find my blog, projects and more. Enjoy your stay!
     profileMode:
       title: Welcome to my website! 👋
-      subtitle: I'm **Xicu**, an Electronic Engineer passionate about Robotics, Software Development and Philosophy. Here you will find my blog, projects and more. Enjoy your stay! 🚀
+      subtitle: I'm **Xicu**, an Electronic Engineer passionate about Electrons, Software Development and Philosophy. Here you will find my blog, projects and more. Enjoy your stay! 🚀
       buttons:
         - name: About me
           url: /en/cv
@@ -61,10 +61,10 @@ es:
   weight: 2
 
   params:
-    description: Soy Xicu, un Ingeniero Electrónico apasionado por la Robótica, Desarrollo de Software y Filosofía. Aquí encontrarás mi blog, proyectos y más. ¡Disfruta tu visita!
+    description: Soy Xicu, un Ingeniero Electrónico apasionado por los Electrones, el Desarrollo de Software y la Filosofía. Aquí encontrarás mi blog, proyectos y más. ¡Disfruta tu visita!
     profileMode:
       title: ¡Bienvenido a mi sitio web! 👋
-      subtitle: Soy **Xicu**, un Ingeniero Electrónico apasionado por la Robótica, Desarrollo de Software y Filosofía. Aquí encontrarás mi blog, proyectos y más. ¡Disfruta tu visita! 🚀
+      subtitle: Soy **Xicu**, un Ingeniero Electrónico apasionado por los Electrones, el Desarrollo de Software y la Filosofía. Aquí encontrarás mi blog, proyectos y más. ¡Disfruta tu visita! 🚀
       buttons:
       - name: Sobre mí
         url: /es/cv

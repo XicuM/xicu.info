@@ -7,13 +7,13 @@ showToc: true
 draft: true
 ---
 
-Hablar de Hignosis.
+La fascinación por la música sigue siendo una de los fenómenos culturales más misteriosos. Hay innumerables teorías sobre por qué nos gusta la música, pero hoy os quiero hablar de una de las que considero más interesantes.
 
-La fascinación por la música sigue siendo una de los fenómenos más misteriosos. Hay innumerables teorias sobre por qué nos gusta la música, pero hoy os quiero hablar de la que considero más interesante.
+Los instrumentos, el ritmo, la voz y las melodías cuentan una historia. No solo eso, sino que las historias que envuelven la creación de una pieza musical se convierten también en parte de su cultura, enriqueciéndola. Los sentimientos, las vivencias del autor contextualizan las notas y las palabras que la obra encapsula.
 
-Los instrumentos, el ritmo, la voz y las melodías cuentan una historia. No solo eso, sino que las 
+Dentro de esta cultura extendida de la música se encuentra la carátula, aquella pieza gráfica que envolvía los discos de vinilo, y los CDs posteriormente. Las carátulas todavía siguen siendo accesibles hoy en día en los servicios de streaming de música.
 
-No recuerdo muy bien de donde surgió la idea de 
+Por eso mismo, en este post me gustaría hablar sobre algunas de las carátulas de discos que más me han inspirado y que he recreado en mi cuenta de Instagram: las historias detrás de ellas y de mis reinterpretaciones.
 
 ## David Bowie
 
