@@ -5,6 +5,7 @@ ShowWordCount: false
 comments: true
 showToc: true
 draft: false
+tags: [Formula Student, Lego]
 cover:
   image: "posts/lego/cover.png"
 ---

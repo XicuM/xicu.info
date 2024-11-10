@@ -3,7 +3,6 @@ title: "The Start of Something New"
 date: 2024-10-10T16:00:48.772
 # weight: 1
 # aliases: ["/first"]
-tags: []
 # showToc: false
 # TocOpen: true
 draft: false
