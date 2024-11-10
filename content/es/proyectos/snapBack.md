@@ -7,7 +7,7 @@ comments: true
 github: https://github.com/XicuM/snapBack
 icon: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Noto_Emoji_v2.034_1f9e2.svg/240px-Noto_Emoji_v2.034_1f9e2.svg.png
 cover:
-   image: projects/snapBack/pipeline.svg
+   image: projects/snapBack/cover.svg
 ---
 
 Este proyecto consiste en una serie de scripts en Python para hacer copias de seguridad y restaurar mis ficheros. El proyecto surge de mi necesidad personal de hacer copias de seguridad de mis ficheros intentando no ocupar mucho espacio adicional.
