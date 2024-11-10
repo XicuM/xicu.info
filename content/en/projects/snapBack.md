@@ -7,7 +7,7 @@ comments: true
 github: https://github.com/XicuM/snapBack
 icon: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Noto_Emoji_v2.034_1f9e2.svg/240px-Noto_Emoji_v2.034_1f9e2.svg.png
 cover:
-   image: projects/snapBack/pipeline.svg
+   image: projects/snapBack/cover.svg
 ---
 
 This project consists on a series of scripts in Python to backup and restore my files. It was born from my personal need to backup my files with little additional storage.
