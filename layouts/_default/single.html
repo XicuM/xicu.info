@@ -38,6 +38,7 @@ a.post-meta:hover p {
         </span>
         {{- end }}
       </h1>
+      <div class="post-meta" style="margin-top:6px;">
       {{- if .Params.github }}
         <a class="post-meta" href="{{ .Params.github }}">
           <p style="padding-right:6px;">
@@ -49,7 +50,9 @@ a.post-meta:hover p {
             {{ end }}
           </p>
         </a>
+        {{- partial "translation_list.html" . -}}
       {{- end }}
+    </div>
     </div>
     {{- if .Description }}
     <div class="post-description">

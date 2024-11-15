@@ -5,6 +5,7 @@ hideMeta: true
 ShowBreadCrumbs: true
 comments: true
 draft: true
+tags: ["Minecraft", "Ibiza"]
 ---
 
 Minecraft IBZ is a project that aims to create a virtual representation of Ibiza in Minecraft.
