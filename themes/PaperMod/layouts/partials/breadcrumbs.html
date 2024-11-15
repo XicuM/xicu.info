@@ -11,7 +11,14 @@
     {{- $bc_pg := site.GetPage ($scratch.Get "path") -}}
 
     {{- if (and ($bc_pg) (gt (len . ) 0))}}
-    {{- print "&nbsp;»&nbsp;" | safeHTML -}}<a href="{{ $bc_pg.Permalink }}">{{ $bc_pg.Name }}</a>
+    {{- print "&nbsp;»&nbsp;" | safeHTML -}}
+        <a href="{{ $bc_pg.Permalink }}">
+            {{- if and (eq $bc_pg.Name "Projects") (eq $bc_pg.Lang "es") }}
+                Proyectos
+            {{- else }}
+                {{- $bc_pg.Name }}
+            {{- end }}
+        </a>
     {{- end }}
 
     {{- end -}}

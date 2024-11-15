@@ -4,8 +4,9 @@ date: 2024-11-09T10:35:33+02:00
 ShowWordCount: false
 comments: true
 showToc: true
+draft: true
 cover:
-   image: https://marp.app/assets/og-image.png
+   image: posts/marp/cover.png
 ---
 
 ## First of all... what is Marp?

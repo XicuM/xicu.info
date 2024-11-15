@@ -5,6 +5,7 @@ hideMeta: true
 ShowBreadCrumbs: true
 comments: false
 draft: false
+tags: [Raspberry Pi, Python, Ibiza]
 icon: "/projects/infoHotel/icon.png"
 # github: https://github.com/XicuM/infoHotel_demo
 cover: 

@@ -8,6 +8,7 @@ icon: "/projects/discord-bot/bot.png"
 github: https://github.com/XicuM/discord-bot
 cover:
     image: "projects/discord-bot/revolutions.png"
+tags: [Python]
 ---
 
 **discord-bot** es un bot de Discord simple para gamificar el servidor de *La Caverna Ecléctica*. El bot responde a diferentes comandos y actúa en función del canal en el que se encuentre el usuario.
