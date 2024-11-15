@@ -71,7 +71,7 @@ es:
       - name: Blog
         url: /es/posts
       - name: Proyectos
-        url: /es/proyectos
+        url: /es/projects
 
     socialIcons:
     - name: Email
@@ -95,7 +95,7 @@ es:
         weight: 20
       - identifier: projects
         name: Proyectos
-        url: /es/proyectos
+        url: /es/projects
         weight: 30
       - identifier: contact
         name: Contacto
