@@ -1,0 +1,323 @@
+/*!
+ * Minimal theme with a logo
+ *
+ * @theme minimal
+ * @author Xicu Marí
+ *
+ * @size 16:9 1280px 720px
+ * @size 4:3 1280px 960px
+ * @size A4 1240px 1754px
+ */
+
+/*----------------------------------------------------------------------
+ * Imports */
+
+/* Import default Marp theme */
+@import 'default';
+
+/* Import font: Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*----------------------------------------------------------------------
+ * Slide style */
+
+section { 
+  justify-content: center; 
+  padding: 30px;
+  padding-left: 48px;
+  padding-right: 80px;
+  padding-top: 75px;
+  line-height: 132%;
+}
+
+section::after {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+  margin-bottom: 6px;
+  margin-right: 22px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 8px;
+}
+
+/*----------------------------------------------------------------------
+ * Basic text style */
+
+p, h1, h3, h4, h5, h6, li, blockquote {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 88%;
+  padding-left: 40px;
+}
+
+/*----------------------------------------------------------------------
+ * Slide cover style */
+
+h1 {
+  position: relative;
+  top: -80px;
+  font-weight: 400;
+  font-size: 230%;
+  padding-top: 300px;
+  margin-bottom: -80px;
+  margin-left: 38px;
+  padding-left: 0px;
+  column-span: all;
+
+  /* Logo */
+  background-size: 220px;
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+h1::before {
+  padding-left: 152px;
+  column-span: all;
+}
+
+/*----------------------------------------------------------------------
+ * Slide header style */
+
+h2 {
+  position: absolute;
+  top: 24px; 
+  left: 58px;
+  width: calc(100% - 250px);
+  height: 60px;
+  margin-left: 0;
+  margin-bottom: 36px;
+  padding-top: 12px;
+  padding-bottom: 4px;
+  padding-left: 137px;
+  column-span: all;
+
+  /* Font */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 122%; 
+  color: black;
+  
+  /* Border */
+  border-bottom: 3px solid black;
+  
+}
+
+h2::before{
+  font-weight: 600;
+}
+
+/* Signature */
+h2::after {
+  content: ".";
+  color: white;
+  position: absolute;
+  top: 3px;
+  left: 0px;
+  margin-bottom: 36px;
+  padding-top: 12px;
+  padding-bottom: 4px;
+  background-image: url('logo.png');
+  background-size: 120px;
+  background-repeat: no-repeat;
+  padding-left: 300px;
+}
+
+/*----------------------------------------------------------------------
+ * Text style */
+
+h3 {
+  font-weight: 600;
+  font-size: 100%;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 100%;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-weight: 400;
+}
+
+li {
+  margin-left: 22px;
+  padding-left: 0px;
+  padding-top: 2px;
+  padding-bottom: 6px;
+  font-size: 88%;
+  line-height: 148%;
+}
+
+li li {
+  margin-left: 0px;
+  padding-left: 12px;
+  padding-top: 0px;
+  padding-bottom: 4px;
+  margin-top: 4px;
+  
+}
+
+li p {
+  font-size: 100%;
+  margin: 0px;
+  padding-left: 12px;
+}
+
+ol > li::marker {
+  font-weight: 600;
+}
+
+/* ---------------------------------------------------------------------
+ * Special blocks style */
+
+table {
+  font-size: 76%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  margin-bottom: 14px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+th {
+  background-color: #edeff1;
+}
+
+pre {
+  max-height: 480px;
+  font-size: 78%;
+  line-height: 1.2;
+  margin-left: 40px;
+  padding-left: 18px;
+  border: 0px;
+  border-radius: 15px;
+}
+
+pre,
+code {
+  background-color: #f3f3f3bd;
+}
+
+pre::part(auto-scaling) {
+  max-height: 480px;
+}
+
+blockquote {
+  font-size: 92%;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  padding: 10px;
+  padding-left: 0px;
+}
+
+/* Change blockquote color */
+blockquote {
+  border-color: #f8cc48;
+  background-color: #ffeba163;
+}
+
+section[data-marpit-advanced-background-split="right"]::after {
+  background-color: #f3f3f3bd;
+}
+
+/* ---------------------------------------------------------------------
+ * Image style */
+
+img:not(.emoji) {
+  max-height: 520px;
+  border-radius: 15px;
+  display: block;
+  margin-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 22px;
+}
+
+/* ---------------------------------------------------------------------
+ * Dark mode style */
+
+section.dark {
+  background-color: black;
+}
+
+section.dark p, 
+section.dark h3, 
+section.dark h4, 
+section.dark h5, 
+section.dark h6, 
+section.dark li,
+section.dark::after {
+  color: white;
+  border-color: white;
+}
+
+section.dark h1, 
+section.dark h2 {
+  filter: invert(100%);
+}
+
+section.right p, 
+section.right h1, 
+section.right h2,
+section.right h3, 
+section.right h4, 
+section.right h5, 
+section.right h6 {
+  text-align: right;
+}
+
+section.dark pre,
+section.dark :not(pre) > code {
+  background-color: #373737c8;
+}
+
+section[data-marpit-advanced-background-split="right"].dark::after {
+  background-color: #373737c8;
+}
+
+/*----------------------------------------------------------------------
+ * Column style */
+
+section.col2 {
+  columns: 2;
+  display: block;
+  gap: 6px;
+}
+
+section.col3 {
+  columns: 3;
+  display: block;
+}
+
+section.col4 {
+  columns: 4;
+  display: block;
+}
+
+section.col2 img:not(.emoji),
+section.col3 img:not(.emoji),
+section.col4 img:not(.emoji) {
+  margin-left: auto;
+  margin-right: auto;
+  scale: 1.02;
+}
+
+section.col2 h3,
+section.col3 h3,
+section.col4 h3 {
+  break-before: column;
+  margin-top: 64px;
+}
