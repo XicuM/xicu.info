@@ -5,7 +5,7 @@ ShowWordCount: false
 comments: true
 showToc: true
 cover:
-   image: posts/marp/cover.png
+   image: posts/marp/cover.jpg
 ---
 
 ## First of all... what is Marp?

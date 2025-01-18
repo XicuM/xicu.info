@@ -8,7 +8,7 @@ tags: [Python]
 github: https://github.com/XicuM/snapBack
 icon: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Noto_Emoji_v2.034_1f9e2.svg/240px-Noto_Emoji_v2.034_1f9e2.svg.png
 cover:
-   image: projects/snapBack/cover.svg
+   image: projects/snapBack/cover.jpg
 ---
 
 This project consists on a series of scripts in Python to backup and restore my files. It was born from my personal need to backup my files with little additional storage.
@@ -41,7 +41,7 @@ As the name suggests, the four hourly backups are created every 12, 16, 20 and 2
 
 ### Backup pipeline
 
-{{< figure src="/projects/snapBack/pipeline.svg" alt="Backup pipeline" caption="Backup pipeline" >}}
+{{< figure src="/projects/snapBack/pipeline.jpg" alt="Backup pipeline" caption="Backup pipeline" >}}
 
 To understand the backup pipeline, the following diagram is drawm. The diagram shows each folder as a square node. The arrows represent each one of the transfer of files. The data is transfered from one square node to the next one each time the backup script is executed, acting as a pipeline. The circles (and the trapezoid) represent the operations the files are subject to. There are four operations used:
 

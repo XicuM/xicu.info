@@ -9,7 +9,7 @@ tags: [Raspberry Pi, Python, Ibiza]
 # github: https://github.com/XicuM/infoHotel_demo
 icon: "/projects/infoHotel/icon.png"
 cover: 
-    image: "/projects/infoHotel/screenshot.png"
+    image: "/projects/infoHotel/screenshot.jpg"
 ---
 
 InfoHotel is a project that aims to create a hotel information screen that displays useful information for guests. The screen will show information such as the weather, local events, and hotel services. 

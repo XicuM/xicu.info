@@ -11,11 +11,11 @@
     {{- if $cover -}}
         {{- $croppedCover := $cover.Fill "200x200 Center" }}
         {{- if $addLink }}<a href="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" target="_blank" rel="noopener noreferrer">{{ end -}}
-        <img loading="{{$loading}}" src="{{ $croppedCover.Permalink }}" alt="{{ $alt }}" width="200" height="auto">
+        <img loading="{{$loading}}" src="{{ $croppedCover.Permalink }}" alt="{{ $alt }}" width="200" height="112">
         {{- if $addLink }}</a>{{ end -}}
     {{- else -}}
         {{- if $addLink }}<a href="{{ (.Params.cover.image) | absURL }}" target="_blank" rel="noopener noreferrer">{{ end -}}
-        <img loading="{{$loading}}" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}" width="200" height="auto">
+        <img loading="{{$loading}}" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}" width="200" height="112">
         {{- if $addLink }}</a>{{ end -}}
     {{- end -}}
     {{/* Display Caption */}}
