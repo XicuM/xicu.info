@@ -7,7 +7,7 @@ showToc: true
 draft: false
 tags: [Formula Student, Lego]
 cover:
-  image: "posts/lego/cover.png"
+  image: "posts/lego/cover.jpg"
 ---
 
 El CAT16x es el decimosexto monoplaza desarrollado por BCN eMotorsport, un equipo de estudiantes de ingeniería del cual tuve el privilegio de formar parte durante mis años en la universidad.

@@ -1,6 +1,6 @@
 ---
 title: Mis fotos de Instagram explicadas
-date: 2024-10-24T20:23:39+02:00
+date: 2024-11-28T20:23:39+02:00
 ShowWordCount: false
 comments: true
 showToc: true
@@ -9,11 +9,15 @@ draft: true
 
 La fascinación por la música sigue siendo una de los fenómenos culturales más misteriosos. Hay innumerables teorías sobre por qué nos gusta la música, pero hoy os quiero hablar de una de las que considero más interesantes.
 
-Los instrumentos, el ritmo, la voz y las melodías cuentan una historia. No solo eso, sino que las historias que envuelven la creación de una pieza musical se convierten también en parte de su cultura, enriqueciéndola. Los sentimientos, las vivencias del autor contextualizan las notas y las palabras que la obra encapsula.
+Los instrumentos, el ritmo, la voz y las melodías cuentan una historia. No solo eso, sino que las historias que envuelven la creación de una pieza musical se convierten también en parte de su cultura, enriqueciéndola. Esta cultura creada alrededor de la música es un poderoso vector de identidad. Nos identificamos con la narrativa de las canciones y la vida del artista. Los sentimientos, las vivencias del autor contextualizan las notas y las palabras que la obra encapsula. De esta manera, ocasionalmente, nos gusta más las ideas representadas en la música que la melodía en sí: piensa sino en canciones de protesta, himnos nacionales o canciones de amor que te recuerdan a alguien especial.
 
-Dentro de esta cultura extendida de la música se encuentra la carátula, aquella pieza gráfica que envolvía los discos de vinilo, y los CDs posteriormente. Las carátulas todavía siguen siendo accesibles hoy en día en los servicios de streaming de música.
+Entre los elementos que ayudan a la creación de esta representación o cultura extendida encontramos la carátula, entendida como aquella pieza gráfica que hace unos años envolvía los discos de vinilo y, posteriormente, los CDs. Las carátulas todavía siguen siendo visibles hoy en día en los servicios de streaming de música como una manera de identificar la obra. En ocasiones, la carátula acaba contando una historia igual de interesante o más que la música en sí. 
 
-Por eso mismo, en este post me gustaría hablar sobre algunas de las carátulas de discos que más me han inspirado y que he recreado en mi cuenta de Instagram: las historias detrás de ellas y de mis reinterpretaciones.
+¿Cuantas veces me he quedado con los cascos puestos, con el móvil en mano, tumbado en la cama e inspeccionando una carátula, intentando descifrar el mensaje que el artista quería transmitir? Bastantes más de las que me gustaría admitir. 
+
+Tras esas largas horas, tanto las melodías y la letra como las imágenes de las carátulas se quedan grabadas, convirtiéndose en parte de mi identidad. Y llegó un momento en el que quise compartirla de una manera creativa al mundo, y así nació mi cuenta de Instagram (hasta entonces no usaba Instagram!).
+
+Quiero aprovechar este post para hablaros sobre algunas de las carátulas de discos que más me han inspirado y que he recreado en mi cuenta de Instagram: las historias detrás de ellas y de mis reinterpretaciones.
 
 ## David Bowie
 
@@ -118,8 +122,8 @@ De esta manera, nos despedimos con la siguiente cita célebre de Steve Jobs:
 
 > “Stay Hungry, Stay Foolish”
 
-Con el avance las inteligencias artificiales generativas, cada vez es más fácil generar 
+Con el avance las inteligencias artificiales generativas, cada vez es más fácil generar imágenes en las que puedo aparecer dentro de cualquier carátula u obra de arte. Para mí le quita parte del encanto que tenía antes. Me hacía pensar en buscar un lugar, en preparar la escena, en buscar la ropa adecuada, en la iluminación, en la pose, en la edición de la foto... Todo un proceso creativo que me encantaba, simplificado a un par de clicks. Seguramente exista un mundo creativo detrás de la generación de imágenes, pero todavía no lo descubierto.
 
-Os gustaría que hiciera alguna recreación más?
+¿Qué opináis vosotros? ¿Preferís la fotografía y la edición de imágenes a la generación de imágenes? ¿Creeis que la inteligencia artificial limita la creatividad? ¿Os gustaría que recreara algún disco?
 
-Os leo en los comentarios.
+Os leo en los comentarios. ¡Hasta el próximo post!

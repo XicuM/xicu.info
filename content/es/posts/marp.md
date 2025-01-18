@@ -5,7 +5,7 @@ ShowWordCount: false
 comments: true
 showToc: true
 cover:
-   image: posts/marp/cover.png
+   image: posts/marp/cover.jpg
 ---
 
 
@@ -61,6 +61,7 @@ Obseva el uso de la directiva headingDivider en el preámbulo, que te permite se
 Puedes previsualizar lo que estás escribiendo en todo momento. Para hacerlo, simplemente haz clic en el botón `Open Preview` to the Side en la esquina superior derecha del editor.
 
 ### 4. Exportar la presentación
+
 Finalmente, para exportar la presentación, haz clic en el botón Show Quick Pick of Marp Commands en la esquina superior derecha del editor y selecciona Export slide deck. Puedes elegir entre varios formatos, como PDF, PNG, PowerPoint o HTML.
 
 ## Trabajar con imágenes

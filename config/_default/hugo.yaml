@@ -9,7 +9,7 @@ enableEmoji: true
 enableRobotsTXT: true
 
 params:
-  description: I'm Xicu, an Electronic Engineer passionate about Electrons, Software Development and Philosophy. Here you will find my blog, projects and more. Enjoy your stay!
+  description: I'm Xicu, an Electronic Engineer passionate about Electrons, Software Development and Philosophy. Here you will find my blog, projects and more.
   env: production
   defaultTheme: auto
   keywords: [Blog, Portfolio, Electronic Engineer, Robotics, Embedded Systems, Software Development, FPGA]
@@ -22,7 +22,7 @@ params:
 
   profileMode:
     enabled: true
-    imageUrl: home/profile.png
+    imageUrl: home/profile.jpg
     imageWidth: 140
     imageHeight: 140
 

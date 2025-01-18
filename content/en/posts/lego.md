@@ -7,7 +7,7 @@ showToc: true
 draft: false
 tags: [Formula Student, Lego]
 cover:
-  image: "posts/lego/cover.png"
+  image: "posts/lego/cover.jpg"
 ---
 
 The CAT16x is the sixteenth single-seater built by BCN eMotorpsort, a team of engineering students I had the privilege of being part of during my university years.

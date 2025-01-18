@@ -9,7 +9,7 @@ tags: ["Python"]
 github: https://github.com/XicuM/discord-bot
 icon: "/projects/discord-bot/bot.png"
 cover:
-    image: "/projects/discord-bot/revolutions.png"
+    image: "/projects/discord-bot/revolutions.jpg"
 ---
 
 **discord-bot** is a simple Discord bot designed to gamify the server of *La Caverna Ecléctica*. The bot responds to various commands and acts based on the channel where the user is located.

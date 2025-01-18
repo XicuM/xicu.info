@@ -8,7 +8,7 @@ tags: [Python]
 github: https://github.com/XicuM/snapBack
 icon: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Noto_Emoji_v2.034_1f9e2.svg/240px-Noto_Emoji_v2.034_1f9e2.svg.png
 cover:
-   image: projects/snapBack/cover.svg
+   image: projects/snapBack/cover.jpg
 ---
 
 Este proyecto consiste en una serie de scripts en Python para hacer copias de seguridad y restaurar mis ficheros. El proyecto surge de mi necesidad personal de hacer copias de seguridad de mis ficheros intentando no ocupar mucho espacio adicional.
@@ -41,7 +41,7 @@ Las cuatro copias de seguridad horarias se crean cada 12, 16, 20 y 24 horas. Es 
 
 ### Pipeline de backup
 
-{{< figure src="/projects/snapBack/pipeline.svg" alt="Pipeline de backup" caption="Pipeline de backup" >}}
+{{< figure src="/projects/snapBack/pipeline.jpg" alt="Pipeline de backup" caption="Pipeline de backup" >}}
 
 El diagrama de la pipeline muestra cada carpeta como un nodo cuadrado. Las flechas representan cada una de las transferencias de archivos. Los datos se transfieren de un nodo cuadrado al siguiente cada vez que se ejecuta el script de backup, actuando como un pipeline. Los círculos (y el trapecio) representan las operaciones a las que están sujetos los archivos. Hay cuatro operaciones utilizadas:
 

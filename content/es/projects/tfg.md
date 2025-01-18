@@ -8,7 +8,7 @@ showToc: true
 tags: ["FPGA", "C++", "Simulink"]
 github: https://github.com/XicuM/tfg
 cover:
-    image: /projects/tfg/control.png
+    image: /projects/tfg/control.jpg
 ---
 
 ## Motivación

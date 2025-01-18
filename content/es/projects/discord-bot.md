@@ -7,7 +7,7 @@ draft: false
 icon: "/projects/discord-bot/bot.png"
 github: https://github.com/XicuM/discord-bot
 cover:
-    image: "projects/discord-bot/revolutions.png"
+    image: "projects/discord-bot/revolutions.jpg"
 tags: [Python]
 ---
 
