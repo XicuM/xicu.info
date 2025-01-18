@@ -5,6 +5,8 @@ ShowWordCount: false
 comments: true
 showToc: true
 draft: true
+cover:
+    image: "posts/insta/cover.jpg"
 ---
 
 La fascinación por la música sigue siendo una de los fenómenos culturales más misteriosos. Hay innumerables teorías sobre por qué nos gusta la música, pero hoy os quiero hablar de una de las que considero más interesantes.
