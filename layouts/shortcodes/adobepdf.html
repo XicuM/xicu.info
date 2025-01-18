@@ -5,7 +5,7 @@
 {{- $height := .Get "height" | default ("auto") -}}
 {{- $id := printf "pdf-%04d" $.Ordinal }}
 
-<p><div id="{{ $id }}" style="width: {{ $width }}; height: {{ $height }};"></div></p>
+<p><div id="{{ $id }}" style="width: {{ $width }}; height: {{ $height }}; background: var(--entry); border-radius: 8px;"></div></p>
 <script type="text/javascript">
   document.addEventListener("adobe_dc_view_sdk.ready", function(){
     var adobeDCView = new AdobeDC.View({clientId: "{{ site.Params.adobeClientId }}", divId: "{{ $id }}"});

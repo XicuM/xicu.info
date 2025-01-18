@@ -23,7 +23,7 @@ I'm an **Electronics Engineer** with over 2 years of experience in BCN eMotorspo
 > - Led and coordinated departments in a Formula Student team focused on designing, manufacturing and testing an electric, driverless car.
 > - Managed team organization, documentation software, event planning, budgeting, and sponsorship agreements.
 > 
-> {{< gallery globalMatch="fs/*" sortOrder="asc" rowHeight="60" margins="8" thumbnailResizeOptions="600x600 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true lastRow="nojustify" loadJQuery=true >}}
+> {{< gallery globalMatch="fs/*_cv.jpg" sortOrder="asc" rowHeight="70" margins="8" thumbnailResizeOptions="600x600 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true lastRow="nojustify" loadJQuery=true >}}
 
 #### Feb 2022 - Sep 2024
 > ### Power Electronics Engineer
@@ -31,13 +31,11 @@ I'm an **Electronics Engineer** with over 2 years of experience in BCN eMotorspo
 > - Modeled and simulated control algorithms for permanent magnet drives.
 > - Programmed embedded SoC with FPGA for three-phase inverter control.
 > - Worked on lithium cell behavior to enhance battery performance.
-> <!-- TODO: Fotos del proyecto -->
 
 #### Feb 2022 - Jul 2022
 > ### Software Engineer Trainee
 > {{< icon src=https://media.licdn.com/dms/image/v2/D4D0BAQGDDzVGaxwVVQ/company-logo_200_200/company-logo_200_200/0/1719903468616/premium_psu_logo?e=2147483647&v=beta&t=kxm3dLahJ7phU674QrdVNoH_rfTQiFGDwXI64WunZiY >}} **Premium PSU** · L'Hospitalet de Llobregat
 > - Performed firmware programming and automation scripting for electric vehicle chargers on the Floox team at Premium PSU.
-> <!-- TODO: Fotos de premium -->
 
 #### Jun 2016 - Sep 2016 &nbsp; | &nbsp; Jun 2017 - Sep 2017
 > ### Hotel Receptionist
@@ -45,11 +43,12 @@ I'm an **Electronics Engineer** with over 2 years of experience in BCN eMotorspo
 > - Delivered customer service to hotel guests, addressing inquiries and resolving issues.
 > - Managed reservations, facilitated check-ins and check-outs, and handled other administrative tasks.
 > - Implemented an infotainment system for guests to access hotel services and information as a side project ([InfoHotel](https://xicu.info/en/projects/infohotel/)).
-> 
+>
+> {{< gallery globalMatch="cv/hotel_*" sortOrder="asc" rowHeight="70" margins="8" thumbnailResizeOptions="600x600 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true lastRow="nojustify" loadJQuery=true >}}
 
 ## Education
 
-#### Sep 2022 - Jan 2025
+#### Sep 2022 - Jun 2025
 > ### 📃 Master's Degree in Electronic Engineering
 > **Universitat Politècnica de Catalunya** \
 > Barcelona School of Telecommunications Engineering \
@@ -59,9 +58,9 @@ I'm an **Electronics Engineer** with over 2 years of experience in BCN eMotorspo
 > ### 📃 B.Sc. in Electronic Engineering and Telecommunications
 > **Universitat Politècnica de Catalunya** \
 > Barcelona School of Telecommunications Engineering \
-> *Overall grade: 9.15 / 10*
-<!-- TODO: Fotos de la graduación -->
+> *Overall grade: 9.15 / 10 (first in class)*
+<!-- TODO: Fotos de la graduación y trabajo final -->
 
 ## Technical Skills
 
-`C/C++` `Python` `Pandas` `Matlab` `Simulink` `VHDL` `Verilog` `KiCad` `Altium` `Xilinx Vivado` `Altera Quartus II` `Cadence Virtuoso` `Linux` `ROS1` `Notion` `Wordpress` `Adobe inDesign` `Microsoft Office` `Google Drive`
+`C/C++` `Python` `Pandas` `Matlab` `Simulink` `VHDL` `SystemVerilog` `KiCad` `Altium` `Xilinx Vivado` `Altera Quartus II` `Cadence Virtuoso` `Linux` `ROS1` `Notion` `Wordpress` `Adobe inDesign` `Microsoft Office` `Google Drive`

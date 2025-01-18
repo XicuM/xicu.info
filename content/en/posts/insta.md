@@ -5,6 +5,8 @@ ShowWordCount: false
 comments: true
 showToc: true
 draft: true
+cover:
+    image: "posts/insta/cover.jpg"
 ---
 
 
