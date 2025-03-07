@@ -9,19 +9,23 @@ cover:
     image: "posts/insta/cover.jpg"
 ---
 
-La fascinación por la música sigue siendo una de los fenómenos culturales más misteriosos. Hay innumerables teorías sobre por qué nos gusta la música, pero hoy os quiero hablar de una de las que considero más interesantes.
+## Esta es la historia
 
-Los instrumentos, el ritmo, la voz y las melodías cuentan una historia. No solo eso, sino que las historias que envuelven la creación de una pieza musical se convierten también en parte de su cultura, enriqueciéndola. Esta cultura creada alrededor de la música es un poderoso vector de identidad. Nos identificamos con la narrativa de las canciones y la vida del artista. Los sentimientos, las vivencias del autor contextualizan las notas y las palabras que la obra encapsula. De esta manera, ocasionalmente, nos gusta más las ideas representadas en la música que la melodía en sí: piensa sino en canciones de protesta, himnos nacionales o canciones de amor que te recuerdan a alguien especial.
+La fascinación por la música sigue siendo una de los fenómenos culturales más misteriosos. Hay innumerables teorías sobre por qué nos gusta la música, pero hoy os quiero hablar de una de las que considero más curiosas.
 
-Entre los elementos que ayudan a la creación de esta representación o cultura extendida encontramos la carátula, entendida como aquella pieza gráfica que hace unos años envolvía los discos de vinilo y, posteriormente, los CDs. Las carátulas todavía siguen siendo visibles hoy en día en los servicios de streaming de música como una manera de identificar la obra. En ocasiones, la carátula acaba contando una historia igual de interesante o más que la música en sí. 
+Los instrumentos, el ritmo, la voz y las melodías cuentan una historia. No solo eso, sino que las historias que envuelven la creación de una pieza musical se convierten también en parte de su cultura, enriqueciéndola. Esta cultura creada alrededor de la música es un poderoso vector de identidad. Nos identificamos con la narrativa de las canciones y la vida del artista. Los sentimientos, las vivencias del autor contextualizan las notas y las palabras de su obra. Así, en muchas ocasiones, nos acaba gustando más las ideas representadas en la música que la melodía en sí: piensa sino en canciones de protesta, himnos nacionales o canciones de amor que te recuerdan a alguien especial.
 
-¿Cuantas veces me he quedado con los cascos puestos, con el móvil en mano, tumbado en la cama e inspeccionando una carátula, intentando descifrar el mensaje que el artista quería transmitir? Bastantes más de las que me gustaría admitir. 
+Entre los elementos que ayudan a la creación de esta representación o cultura extendida encontramos la carátula, entendida como aquella pieza gráfica que hace unos años envolvía los discos de vinilo y, posteriormente, los CDs. Las limitaciones físicas de los discos de vinilo LP (Long-Play) restringían la duración a 50 minutos, divididos en dos caras A y B, de 25 minutos máximos cada una. Esto dio lugar a un estándar de álbum que ha perdurado hasta nuestros días, aún podiendo meter más de mil canciones en un mismo dispositivo. Así, las carátulas siguen siendo visibles hoy en día en los servicios de streaming como una manera de identificar la obra.
 
-Tras esas largas horas, tanto las melodías y la letra como las imágenes de las carátulas se quedan grabadas, convirtiéndose en parte de mi identidad. Y llegó un momento en el que quise compartirla de una manera creativa al mundo, y así nació mi cuenta de Instagram (hasta entonces no usaba Instagram!).
+Son muchos los casos en que la carátula acaba contando una historia igual de interesante o más que la música en sí. ¿Cuantas veces me he quedado con los cascos puestos, con el móvil en mano, tumbado en la cama e inspeccionando una carátula, intentando descifrar el mensaje que el artista quería transmitir? Bastantes más de las que me gustaría admitir. 
 
-Quiero aprovechar este post para hablaros sobre algunas de las carátulas de discos que más me han inspirado y que he recreado en mi cuenta de Instagram: las historias detrás de ellas y de mis reinterpretaciones.
+Tras esas largas horas, tanto las melodías y la letra como las imágenes de las carátulas se quedan grabadas, convirtiéndose en parte de mi identidad. Y llegó un momento en el que quise compartir mi identidad de una manera creativa al mundo, y así nació mi cuenta de Instagram, ya que hasta entonces no usaba Instagram! Dicen que la creatividad nace de las limitaciones autoimpuestas, y en mi caso, mi impuse como objetivo creativo recrear carátulas de discos conmigo mismo como protagonista.
+
+Ahora mismo le dedico poco tiempo a la cuenta, a favor de esta página web personal, en la cual puedo expresar mi identidad de una manera más completa. De esta manera, quiero aprovechar este post en la web para hablaros sobre algunas de las carátulas de discos que más me han inspirado y que he recreado en mi cuenta de Instagram: las historias detrás de ellas y de mis reinterpretaciones. 
 
 ## David Bowie
+
+David Bowie es uno de los artistas que más me ha inspirado, en especial, por su capacidad de reinvertarse a sí mismo y de crear personajes únicos, como Ziggy Stardust o Aladdin Sane. Por eso mismo, fue conocido como "The Chameleon of Rock" por muchos críticos musicales. Su ávido interés por la lectura llenó sus letras de referencias a la literatura, la filosofía y la ciencia ficción, añadiendo una nueva capa de profundidad. Finalmente, también supo rodearse de talentosos músicos, animándolos a colaborar libremente y haciendo que la mezcla resultante fuera más rica y variada.
 
 ### *Heroes*, 1977
 {{< gallery globalMatch="insta/heroes*" sortOrder="desc" rowHeight="150" margins="8" thumbnailResizeOptions="640x640 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true loadJQuery=true >}}
@@ -40,14 +44,14 @@ Cuando hablamos de locura, Muchas veces pregunto a mi amigo Leadro, que estudia 
 
 ## Peter Gabriel
 
-El que fuera el frontman de Genesis, Peter Gabriel, ha sido por muchos años también una fuente de inspiración. 
-
-Peter Gabriel fue el primer cantante en tirarse al escenario, cosa que solía hacer tras presentar la canción **The Knife** del álbum *Trespass*.
+El que fuera el frontman de Genesis, Peter Gabriel, ha sido por muchos años también una fuente de inspiración. Aunque su figura no es tan eléctica como la de Bowie, su música y su puesta en escena han sido siempre muy innovadoras. Por ejemplo, Peter Gabriel fue el primer cantante en tirarse al escenario, cosa que solía hacer tras presentar la canción **The Knife** del álbum *Trespass*. Hoy en día, asociamos el *stage diving* a toda la música rock y punk, considereándose una práctica en los conciertos.
 
 ### *Car*, 1977
 {{< gallery globalMatch="insta/car*" sortOrder="desc" rowHeight="150" margins="8" thumbnailResizeOptions="640x640 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true loadJQuery=true >}}
 
-Peter Gabriel I En mi versión, el Flavia de la Golf Cabriolet
+*Car* es el nombre a un álbum sin título que Peter Gabriel lanzó en 1977.
+Peter Gabriel I
+En mi versión, el Flavia de la Golf Cabriolet
 
 ### *Scratch*, 1978
 {{< gallery globalMatch="insta/scratch*" sortOrder="desc" rowHeight="150" margins="8" thumbnailResizeOptions="640x640 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true loadJQuery=true >}}
@@ -57,11 +61,11 @@ Peter Gabriel II
 ### *Shaking the Tree*, 1990
 {{< gallery globalMatch="insta/peter_gabriel*" sortOrder="desc" rowHeight="150" margins="8" thumbnailResizeOptions="640x640 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true loadJQuery=true >}}
 
-*Shaking the Tree* es el primer álbum recopilatorio de Peter Gabriel.
+*Shaking the Tree* es el primer álbum recopilatorio de Peter Gabriel. No es un álbum de estudio, ni tampoco es muy icónico.
 
 ## Pink Floyd
 
-Pink FLoyd
+Pink Floyd
 
 ### *Wish You Were Here*, 1975
 {{< gallery globalMatch="insta/wish_you_were_here*" sortOrder="desc" rowHeight="150" margins="8" thumbnailResizeOptions="640x640 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true loadJQuery=true >}}
@@ -76,7 +80,7 @@ Actualmente, a pesar de las ruinas, Cala d'en Serra sigue siendo una cala bastan
 
 ## King Crimson
 
-King Crimson es de los pocos grupos de los que he tenido la ocasión de 
+King Crimson es de los pocos grupos de los que he tenido la ocasión de ver en directo. Aunque no es un grupo muy conocido, su música es muy influyente en el mundo del rock progresivo. Curiosamente, *King Crimson* es el nombre de una calle en Formentera, puesta en honor a la canción *Formentera Lady* que incluyeron en su álbum *Islands* de 1971.
 
 ### *Red*, 1974
 {{< gallery globalMatch="insta/red*" sortOrder="desc" rowHeight="150" margins="8" thumbnailResizeOptions="640x640 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true loadJQuery=true >}}
@@ -85,47 +89,47 @@ La música de este álbum es sobria. Se dice que *Red* fue una inspiración Así
 
 ## Japan
 
-Japan quizá no os suene como grupo pero sí tiene un par de canciones bastante comerciales. Al igual que David Bowie, Japan surfeó la ola del "glam rock" a finales de los 70.
+Japan quizá no os suene como grupo pero sí tiene un par de canciones bastante comerciales, como son *Ghosts* o *Quiet Life*. Al igual que David Bowie, Japan surfeó la ola del llamado "glam rock" a finales de los 70, en el que el foco pasa a estar en la estética y la puesta en escena, de aquí que gran parte de las carátulas de sus discos sean bastante icónicas.
 
 ### *Quiet Life*, 1979
 {{< gallery globalMatch="insta/japan*" sortOrder="desc" rowHeight="150" margins="8" thumbnailResizeOptions="640x640 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true loadJQuery=true >}}
 
-
-
 ## The Beatles
 
-Entre mi música favorita, hay un lugar especial para The Beatles.
+Entre los amantes del rock, *The Beatles* siempre figura en el top de grupos favoritos. Es muy interesante estudiar el caso del grupo liverpuliano, 
 
 ### *Revolver*, 1966
 {{< gallery globalMatch="insta/revolver*" sortOrder="desc" rowHeight="150" margins="8" thumbnailResizeOptions="640x640 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true loadJQuery=true >}}
 
 De esta foto
 
-## One more thing
+## One more thing!
 
-Para acabar, os contaré la historia de tres imágenes más. 
-
-### *Rick and Morty*
-{{< gallery globalMatch="insta/rick_and_morty*" sortOrder="desc" rowHeight="150" margins="8" thumbnailResizeOptions="640x640 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true loadJQuery=true >}}
-
-gamberro
+Para acabar, os contaré la historia de tres imágenes más. No son carátulas de discos, sino parodias de obras de arte o de personajes de ficción que también he recreado y ocupan un lugar dentro de mi cultura personal.
 
 ### *La última cena*
 {{< gallery globalMatch="insta/da_vinci*" sortOrder="desc" rowHeight="150" margins="8" thumbnailResizeOptions="640x640 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true loadJQuery=true >}}
 
-Una de las obras más míticas de la historia de la humanidad es *La última cena* de Leonardo Da Vinci. Aunque esta obra cuenta con más de 500 años, sigue fancinando a generaciones de artistas y, como no, a pariodistas. Es quizás la obra más parodiada de entre las que se conocen, a parte de la célebre *Abbey Road* de The Beatles, la cual pariodé en su momento pero nunca publiqué (solo los verdaderos *Troll Inc.* la han visto).
+Una de las obras más míticas de la historia de la humanidad es *La última cena* de Leonardo Da Vinci, de quien Walter Isaacson hace una fantástica biografía. *La última cena* cuenta con más de 500 años a sus espaldes y sigue fancinando a generaciones de artistas y, como no, a pariodistas. Es quizás la obra más parodiada de entre las que se conocen, a parte de la célebre *Abbey Road* de The Beatles, la cual pariodé en su momento pero nunca publiqué (solo los verdaderos *Troll Inc.* la han visto).
 
+### *Rick and Morty*
+{{< gallery globalMatch="insta/rick_and_morty*" sortOrder="desc" rowHeight="150" margins="8" thumbnailResizeOptions="640x640 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true loadJQuery=true >}}
 
+*Rick and Morty* no necesita presentación. Caracterizado por su humor gamberro, la serie suele partir de una premisa científica o filosófica y la lleva a sus últimas consecuencias, incitando así a la reflexión. En esta recreación, mis amigos y yo nos aventuramos a hacer un viaje con la nave de *Rick*. No sé si es buena idea que yo esté al mando de la nave, pero al menos Carlos no se ha olvidado de llevar sus botellas de hierbas ibicencas.
 
 ### *Steve Jobs*
 {{< gallery globalMatch="insta/jobs*" sortOrder="desc" rowHeight="150" margins="8" thumbnailResizeOptions="640x640 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true loadJQuery=true >}}
+
+La biografía de Steve Jobs, también de Walter Isaacson, 
 
 De esta manera, nos despedimos con la siguiente cita célebre de Steve Jobs:
 
 > “Stay Hungry, Stay Foolish”
 
-Con el avance las inteligencias artificiales generativas, cada vez es más fácil generar imágenes en las que puedo aparecer dentro de cualquier carátula u obra de arte. Para mí le quita parte del encanto que tenía antes. Me hacía pensar en buscar un lugar, en preparar la escena, en buscar la ropa adecuada, en la iluminación, en la pose, en la edición de la foto... Todo un proceso creativo que me encantaba, simplificado a un par de clicks. Seguramente exista un mundo creativo detrás de la generación de imágenes, pero todavía no lo descubierto.
+## Conclusión
 
-¿Qué opináis vosotros? ¿Preferís la fotografía y la edición de imágenes a la generación de imágenes? ¿Creeis que la inteligencia artificial limita la creatividad? ¿Os gustaría que recreara algún disco?
+Con el avance las inteligencias artificiales generativas, cada vez es más fácil generar imágenes en las que puedo aparecer dentro de cualquier carátula u obra de arte. Para mí le quita parte del encanto que tenía antes. Me hacía pensar en buscar un lugar, en preparar la escena, en buscar la ropa adecuada, en la iluminación, en la pose, en la edición de la foto... Todo un proceso creativo que me encantaba, simplificado a un par de clicks. Seguramente exista un mundo creativo detrás de la generación de imágenes, pero todavía no lo he descubierto (más allá de generar la imagen de portada de este post).
+
+¿Qué opináis vosotros? ¿Preferís la fotografía y la edición a la generación de imágenes? ¿Creeis que la inteligencia artificial limita la creatividad? ¿Os gustaría que volviera a recrear algún disco?
 
 Os leo en los comentarios. ¡Hasta el próximo post!

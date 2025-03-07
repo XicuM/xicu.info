@@ -15,7 +15,7 @@
     other: "{{ .Count }} palabras"
 
 - id: toc
-  translation: "Índice"
+  translation: "Contenidos"
 
 - id: translations
   translation: "Traducción"

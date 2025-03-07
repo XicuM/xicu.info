@@ -72,7 +72,9 @@ Hasta ahora, solo hemos usado texto para crear las diapositivas. Sin embargo, to
 
 Para agregar una imagen a una diapositiva, puedes usar la siguiente sintaxis:
 
-![Texto alternativo](/ruta/a/la/imagen.jpg)
+```markdown
+![Texto alternativo](/ruta/a/la/imagen.jpg) 
+```
 
 La ruta a la imagen puede ser una ruta absoluta o una ruta relativa al archivo Markdown. Por otro lado, la etiqueta Texto alternativo es el texto que se mostrará si la imagen no se puede cargar.
 
@@ -80,7 +82,9 @@ Si no quieres escribir rutas, tienes suerte porque Visual Studio Code te permite
 
 Finalmente, también podrías usar una URL a una imagen alojada en internet, como esta:
 
-![Texto alternativo](https://example.com/imagen.jpg)
+```markdown
+![Texto alternativo](https://example.com/imagen.jpg) 
+```
 
 ### Modifica la imagen
 

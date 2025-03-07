@@ -6,7 +6,7 @@ ShowBreadCrumbs: false
 disableAnchoredHeadings: true
 ---
 
-Soy un **Ingeniero Electrónico** con más de 2 años de experiencia en BCN eMotorsport, el equipo de Formula Student de Barcelona. Me especialicé en Electrónica de Potencia y más tarde asumí el rol de *Team Leader*.
+Soy un **Ingeniero Electrónico** con más de 2 años de experiencia en BCN eMotorsport, el equipo de Formula Student de Barcelona. Me especialicé en Electrónica de Potencia y más tarde asumí el rol de *Team Leader*. Ahora trabajo como **Ingeniero de investigación** en el Barcelona Supercomputing Center.
 
 [Descargar mi CV aquí](cv_XicuMarí.pdf)
 
