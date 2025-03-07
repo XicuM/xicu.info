@@ -68,7 +68,7 @@ So far, we have only used text to create the slides. However, we all know that a
 To add an image to a slide, you can use the following syntax:
 
 ```markdown
-![Alt text](/path/to/image.jpg)
+![Alt text](/path/to/image.jpg) 
 ```
 
 The path to the image can be either an absolute path or a relative path to the Markdown file. On the other hand, the `Alt text` label is the text that will be displayed if the image cannot be loaded.
@@ -78,7 +78,7 @@ If you don't want to write paths, you are lucky because Visual Studio Code allow
 Finally, you could also use a URL to an image hosted on the internet, like that:
 
 ```markdown
-![Alt text](https://example.com/image.jpg)
+![Alt text](https://this_is_a_webpage.com/image.jpg) 
 ```
 
 ### Customizing the image
@@ -209,7 +209,7 @@ In my theme's CSS file, I have defined some custom classes to invert the color s
 
 As an example, I have recreated this post using my custom theme. You can find the source code [here](/posts/marp/marp_tutorial.md). The result is shown below:
 
-{{< adobepdf url="/posts/marp/marp_tutorial.pdf" height="480px" name="Marp Tutorial" >}}
+<!-- {{< adobepdf url="/posts/marp/marp_tutorial.pdf" height="480px" name="Marp Tutorial" >}} -->
 
 ## Conclusion
 

@@ -4,6 +4,7 @@ date: 2024-11-03T00:06:49+02:00
 hideMeta: true
 comments: false
 draft: false
+showToc: true
 icon: "/projects/discord-bot/bot.png"
 github: https://github.com/XicuM/discord-bot
 cover:

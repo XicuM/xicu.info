@@ -1,28 +1,268 @@
 {{- define "main" }}
 
+{{- if (.Param "ShowToc") }}
+<script>
+
+  {{/*  document.addEventListener("DOMContentLoaded", function () {
+      function updateScrollMargin() {
+          let postTitleHeight = document.querySelector(".post-title").offsetHeight;
+          document.querySelectorAll("h1, h2, h3, h4, h5, h6").forEach(heading => {
+              heading.style.scrollMarginTop = `${80 + postTitleHeight}px`;
+          });
+      }
+      window.onload = updateScrollMargin; // Run on load
+      window.addEventListener("resize", updateScrollMargin); // Run on resize
+  });  */}}
+
+
+  document.addEventListener("DOMContentLoaded", () => {
+      const mainContent = document.querySelector(".main-content-wrapper"); // Get main content
+      const sections = document.querySelectorAll("h2, h3"); // Get all headings
+      const tocLinks = document.querySelectorAll(".toc a"); // Get TOC links
+
+      function highlightSection() {
+          let currentSection = "";
+          sections.forEach((section) => {
+              if (window.scrollY >= mainContent.offsetTop + section.offsetTop - section.clientHeight) {
+                  currentSection = section.getAttribute("id");
+              }
+          });
+          tocLinks.forEach((link) => {
+              link.classList.remove("active");
+              if (link.getAttribute("href").substring(1) === currentSection) {
+                  link.classList.add("active");
+              }
+          });
+      }
+      highlightSection(); // Run on load
+      window.addEventListener("scroll", highlightSection);
+  });
+</script>
+
+<style>
+  :root {
+    --width-offset: 80px;
+    --toc-width: calc(210px + var(--width-offset));
+  }
+
+    .main {
+      margin-left: calc(var(--width-offset) + 50vw - var(--main-width)/2);
+    }
+
+    .toc {
+      margin: 0;
+      margin-top: -8px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .title-zone::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .main-content-wrapper {
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+    
+    .toc-container {
+      text-align: right;
+      margin-top: -16px;
+      position: sticky;
+      top: 66px;
+      float: left;
+      margin-left: max(calc(0px - var(--toc-width)), calc(var(--main-width)/2 - 50vw - var(--width-offset)));
+      max-width: calc(var(--toc-width) - var(--gap));
+      width: calc(var(--width-offset) + 50vw - var(--main-width)/2 - var(--gap));
+      max-height: calc(100vh - 50px);
+      overflow-y: auto;
+      font-size: 94%;
+      padding: 0;
+      padding-left: 12px;
+      color: var(--secondary);
+      line-height: 1.3;
+      margin-bottom: var(--gap);
+    }
+    
+    .toc-container ol {
+      padding-top: 6px;
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+    
+    .toc-container .toc details {
+      display: none;
+    }
+    
+    .toc-container .toc .inner-large {
+      display: block;
+    }
+    
+    .toc-container .toc {
+      background: none;
+      border: none;
+      box-shadow: none;
+      padding: 0;
+    }
+    
+    .toc-container .toc .inner {
+      padding: 0;
+      margin-top: 0;
+    }
+    
+    .toc-container .toc .inner-large {
+      margin: 0;
+      padding: 0;
+      background: none;
+      text-align: right;
+    }
+    
+    .toc-container .toc ul {
+      text-align: right;
+    }
+    
+    .toc-container .toc li {
+      counter-increment: none;
+      padding-bottom: 6px;
+      padding-top: 5px;
+    }
+    
+    .toc-container .toc a {
+      display: inline-block;
+      color: inherit;
+    }
+    
+    .toc-container .toc li li {
+      margin-right: var(--gap);
+      font-size: 90%;
+    }
+    
+    .toc-container .toc li li li {
+      margin-right: calc(2*var(--gap));
+    }
+    
+    .toc-container .toc li::before,
+    .toc-container .toc li::marker {
+      display: none !important;
+      content: "" !important;
+    }
+    
+    .toc-container .toc a::before {
+      content: none !important;
+    }
+    
+    .toc-container .toc > .inner-large > ul {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    
+    .toc a:hover {
+      color: var(--primary);
+    }
+    
+    .toc-container .toc a {
+      display: inline;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    .toc-container .toc a.active {
+        color: var(--primary);
+        font-weight: 500;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      scroll-margin-top: 80px;
+    }
+    
+    /* Responsive adjustments */
+    @media screen and (max-width: 960px) {
+      .main { margin: auto; }
+    
+      .main-content-wrapper { flex-direction: column; }
+    
+      .toc-container {
+        background: var(--entry);
+        max-width: 100%;
+        top: 0px;
+        float: none;
+        width: var(--main-width) !important;
+        position: relative;
+        margin: 0;
+        max-height: none;
+        border-radius: var(--radius);
+        padding: 12px;
+        padding-left: 24px;
+      }
+      
+      /* Show summary on mobile and allow collapsing */
+      .toc-container .toc details {
+        text-align: left;
+        display: block;
+        margin-left: 0px;
+        color: var(--primary);
+        padding-left: 8px;
+      }  
+    
+      .toc-container .toc details summary {
+        font-size: 115%;
+        padding-left: 0;
+        margin-left: 0;
+      }
+    
+      /* Hide inner-large on mobile */
+      .toc-container .toc .inner-large {
+        display: none;
+      }
+      
+      /* Reset indentation on mobile and align left */
+      .toc-container .toc .inner {
+        color: var(--primary);
+        text-align: left;
+      }
+      
+      .toc-container .toc li li {
+        margin-right: 0;
+        margin-left: 24px;
+      }
+    
+      .toc-container .toc li li li {
+        margin-right: 0;
+        margin-left: 48px;
+      }
+      
+      /* Show proper indentation on mobile */
+      .toc-container .toc ul {
+        padding-left: 0;
+        margin-left: 0;
+      }
+    }
+</style>
+{{- end }}
+
 <style>
 a.post-meta:hover p {
   border-radius: 6px;
   background-color: var(--border);
 }
+
 .icon {
   float: left;
   margin-right: 20px;
 }
-.title-zone::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 </style>
 
-<article class="post-single">
+<article class="post-single article-with-toc">
   {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
   <header class="post-header">
     <div class="icon">
       {{- if (.Param "icon") }}
-        <img src="{{ .Params.icon }}" alt="icon" style="height:{{- if (.Param "github") }}100{{- else }}78{{- end }}px; border-radius: 16px;">
+        <img src="{{ .Params.icon }}" alt="icon" style="height:{{ if (.Param "github") }}100{{ else }}78{{ end }}px; border-radius: 16px;">
       {{- end }}
     </div>
     <div class="title-zone">
@@ -68,17 +308,22 @@ a.post-meta:hover p {
     </div>
     {{- end }}
   </header>
-  {{- if (.Param "ShowToc") }}
-  {{- partial "toc.html" . }}
-  {{- end }}
 
-  {{- if .Content }}
-  <div class="post-content">
-    {{- if not (.Param "disableAnchoredHeadings") }}
-    {{- partial "anchored_headings.html" .Content -}}
-    {{- else }}{{ .Content }}{{ end }}
+  <div class="main-content-wrapper">
+    {{- if (.Param "ShowToc") }}
+    <div class="toc-container">
+      {{- partial "toc.html" . }}
+    </div>
+    {{- end }}
+
+    {{- if .Content }}
+    <div class="post-content">
+      {{- if not (.Param "disableAnchoredHeadings") }}
+      {{- partial "anchored_headings.html" .Content -}}
+      {{- else }}{{ .Content }}{{ end }}
+    </div>
+    {{- end }}
   </div>
-  {{- end }}
 
   <footer class="post-footer" style="margin-top: 40px;">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
@@ -107,4 +352,4 @@ a.post-meta:hover p {
   </script>
 {{ end }}
 
-{{- end }}{{/* end main */}}
+{{- end -}}

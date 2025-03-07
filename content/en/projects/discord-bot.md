@@ -3,6 +3,7 @@ title: "discord-bot"
 date: 2024-11-03T00:06:49+02:00
 hideMeta: true
 ShowBreadCrumbs: true
+showToc: true
 comments: true
 draft: false
 tags: ["Python"]
