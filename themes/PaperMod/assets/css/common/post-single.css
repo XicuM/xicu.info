@@ -161,7 +161,6 @@
 }
 
 .post-content .highlight:not(table) {
-    margin: 10px auto;
     background: var(--code-block-bg) !important;
     border-radius: var(--radius);
     direction: ltr;

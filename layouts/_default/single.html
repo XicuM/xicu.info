@@ -3,18 +3,6 @@
 {{- if (.Param "ShowToc") }}
 <script>
 
-  {{/*  document.addEventListener("DOMContentLoaded", function () {
-      function updateScrollMargin() {
-          let postTitleHeight = document.querySelector(".post-title").offsetHeight;
-          document.querySelectorAll("h1, h2, h3, h4, h5, h6").forEach(heading => {
-              heading.style.scrollMarginTop = `${80 + postTitleHeight}px`;
-          });
-      }
-      window.onload = updateScrollMargin; // Run on load
-      window.addEventListener("resize", updateScrollMargin); // Run on resize
-  });  */}}
-
-
   document.addEventListener("DOMContentLoaded", () => {
       const mainContent = document.querySelector(".main-content-wrapper"); // Get main content
       const sections = document.querySelectorAll("h2, h3"); // Get all headings
@@ -196,7 +184,6 @@
         max-height: none;
         border-radius: var(--radius);
         padding: 12px;
-        padding-left: 24px;
       }
       
       /* Show summary on mobile and allow collapsing */
@@ -204,9 +191,19 @@
         text-align: left;
         display: block;
         margin-left: 0px;
+        padding-top: 6px;
         color: var(--primary);
         padding-left: 8px;
       }  
+
+      .toc-container .toc details ol {
+        padding-top: 0px;
+        margin-top: 6px;
+      }  
+
+      .toc-container .details {
+        padding-left: 6px;
+      }
     
       .toc-container .toc details summary {
         font-size: 115%;
@@ -223,6 +220,7 @@
       .toc-container .toc .inner {
         color: var(--primary);
         text-align: left;
+        margin-left: 22px;
       }
       
       .toc-container .toc li li {

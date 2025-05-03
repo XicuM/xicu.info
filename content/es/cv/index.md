@@ -31,7 +31,7 @@ Soy un **Ingeniero Electrónico** con más de 2 años de experiencia en BCN eMot
 > - Análisis de celdas de litio para mejorar el rendimiento de las baterías.
 
 #### Feb 2022 - Jul 2022
-> ### Becario de Ingeniería de Software
+> ### Becario de Ingeniería de Software Embebido
 > {{< icon src=https://media.licdn.com/dms/image/v2/D4D0BAQGDDzVGaxwVVQ/company-logo_200_200/company-logo_200_200/0/1719903468616/premium_psu_logo?e=2147483647&v=beta&t=kxm3dLahJ7phU674QrdVNoH_rfTQiFGDwXI64WunZiY >}} **Premium PSU** · L'Hospitalet de Llobregat
 > - Programación de firmware y scripting de automatización para cargadores de vehículos eléctricos en el equipo Floox de Premium PSU.
 

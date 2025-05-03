@@ -26,7 +26,7 @@ To install the Marp extension, follow these steps:
 2. Go to the Extensions view and earch for "Marp" in the Extensions view search box.
 3. Click on the "Install" button to install the extension.
 
-{{< figure src="https://marp.app/assets/marp-for-vs-code.png" width=575px align=center >}}
+{{< figure src="/posts/marp/marp-for-vs-code.png" width=512px align=center >}}
 
 ## Four simple steps to create a Marp presentation
 
@@ -209,7 +209,7 @@ In my theme's CSS file, I have defined some custom classes to invert the color s
 
 As an example, I have recreated this post using my custom theme. You can find the source code [here](/posts/marp/marp_tutorial.md). The result is shown below:
 
-<!-- {{< adobepdf url="/posts/marp/marp_tutorial.pdf" height="480px" name="Marp Tutorial" >}} -->
+{{< adobepdf url="/posts/marp/marp_tutorial.pdf" height="480px" name="Marp Tutorial" >}}
 
 ## Conclusion
 
