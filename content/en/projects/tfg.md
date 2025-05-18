@@ -48,7 +48,7 @@ If you are curious, you can download the full thesis [here](https://upcommons.up
 
 ## Theoretical Framework
 
-{{< figure src="/projects/tfg/inverter.svg" alt="Control algorithm" caption="Schematic of an ideal inverter." >}}
+{{< figure src="/projects/tfg/inverter.svg" full-width="true" alt="Ideal inverter" caption="Schematic of an ideal inverter." >}}
 
 The IPMSM can be modeled as an inductance and resistance in series for each phase. There are two types of connections in a three-phase motor: star and delta. In this instance, the connection was a star connection: the three branches of the motor are joined at a midpoint called the neutral point, symbolised by an 'n'.
 

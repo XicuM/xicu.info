@@ -1,7 +1,6 @@
 ---
 title: My Instagram Pictures Explained
 date: 2024-10-24T20:23:39+02:00
-ShowWordCount: false
 comments: true
 showToc: true
 draft: true

@@ -1,7 +1,6 @@
 ---
 title: Cómo programar presentaciones con Marp
 date: 2024-11-25T10:35:33+02:00
-ShowWordCount: false
 comments: true
 showToc: true
 cover:

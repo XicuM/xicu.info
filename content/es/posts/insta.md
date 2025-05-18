@@ -1,7 +1,6 @@
 ---
 title: Mis fotos de Instagram explicadas
 date: 2024-11-28T20:23:39+02:00
-ShowWordCount: false
 comments: true
 showToc: true
 draft: true

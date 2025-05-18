@@ -7,7 +7,6 @@ date: 2024-10-10T16:00:48.772
 # TocOpen: true
 draft: false
 comments: true
-ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: false
 # cover:

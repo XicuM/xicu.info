@@ -1,9 +1,7 @@
 ---
 title: The CAT16x in Lego
 date: 2024-10-17T17:42:39+02:00
-ShowWordCount: false
 comments: true
-showToc: true
 draft: false
 tags: [Formula Student, Lego]
 cover:

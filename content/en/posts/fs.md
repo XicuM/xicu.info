@@ -1,7 +1,6 @@
 ---
 title: Goodbye, BCN eMotorsport
 date: 2024-10-11T11:29:05+02:00
-ShowWordCount: false
 comments: true
 draft: false
 tags: [Formula Student]

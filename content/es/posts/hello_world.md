@@ -7,7 +7,6 @@ tags: []
 # showToc: false
 # TocOpen: true
 comments: true
-ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: false
 # cover:

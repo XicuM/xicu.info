@@ -45,6 +45,12 @@ code {
 div.highlight,
 pre {
     position: relative;
+    margin-bottom: var(--content-gap);
+}
+
+li > div.highlight,
+li > div.highlight pre {
+    margin-top: var(--content-gap);
 }
 
 .copy-code {
