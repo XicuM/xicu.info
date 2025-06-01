@@ -413,3 +413,7 @@ img.in-text {
     display: inline;
     margin: auto;
 }
+
+.gallery-wrapper {
+    margin-bottom: var(--content-gap);
+}

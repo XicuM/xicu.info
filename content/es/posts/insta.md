@@ -27,7 +27,7 @@ David Bowie es uno de los artistas que más me ha inspirado, en especial, por su
 
 ### *Heroes*, 1977
 {{< gallery globalMatch="insta/heroes*" sortOrder="desc" rowHeight="150" margins="8" thumbnailResizeOptions="640x640 q80 Lanczos" previewType="blur" thumbnailHoverEffect="enlarge" embedPreview=true loadJQuery=true >}}
-d
+
 El primer álbum que recreé en mi cuenta de Instagram fue *Heroes*. La canción que pone título al álbum se ha convertido en todo un himno, siendo la segunda pista más popular de Bowie por detrás de *Space Oddity*. La escribió inspirándose en un momento en el que, desde la ventana de su estudio, vislumbró a lo lejos un beso de una pareja frente al muro de Berlín. Todo el álbum cuenta con elementos distintivos, incorporados por los excelentes músicos con quienes se rodeaba, ejemplos de ello son la ambientación electrónica de Brian Eno y las guitarras en bucle de Robert Fripp.
 
 ### *Low*, 1977
