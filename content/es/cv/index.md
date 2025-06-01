@@ -3,6 +3,7 @@ title: 'Sobre mí'
 date: 2024-10-11T08:42:50+02:00
 hideMeta: true
 ShowBreadCrumbs: false
+ShowShareButtons: false
 disableAnchoredHeadings: true
 ---
 
