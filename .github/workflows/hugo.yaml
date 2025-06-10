@@ -51,13 +51,9 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Create Adobe Secrets File
-        env:
-          ADOBE_CLIENT_ID_VALUE: ${{ secrets.ADOBE_CLIENT_ID }}
-        if: ${{ env.ADOBE_CLIENT_ID_VALUE != '' }}
         run: |
-          mkdir -p ./config/_default
           echo "params:" > ./config/_default/adobe_secrets.yaml
-          echo "  adobeClientId: ${{ env.ADOBE_CLIENT_ID_VALUE }}" >> ./config/_default/adobe_secrets.yaml
+          echo "  adobeClientId: ${{ secrets.ADOBE_CLIENT_ID }}" >> ./config/_default/adobe_secrets.yaml
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
