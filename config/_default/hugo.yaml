@@ -48,6 +48,9 @@ params:
   ShowShareButtons: true
   ShareButtons: ["x", "linkedin", "whatsapp", "reddit", "telegram", "facebook"]
 
+  # Adobe PDF Viewer
+  adobeClientId: "5e4106dab71f4a17bcabc294a0a8a637"
+
   # Favicons
   assets:
     favicon: icons/favicon.ico
